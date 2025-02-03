@@ -1,0 +1,3654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<usa_cities>
+	<city>
+		<id>1840013660</id>
+		<name>Atlanta</name>
+		<state_abbrev>GA</state_abbrev>
+		<state>Georgia</state>
+		<capital>state</capital>
+		<lat>33.7628</lat>
+		<lng>-84.422</lng>
+		<population>5180179</population>
+		<density>1412.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>30334 30331 30332 30309 30308 30354 30327 30322 30326 30324 30319 30342 30305 30307 30306 30316 30317 30314 30315 30312 30313 30310 30311 30303 30363 30318 30301 30302 30304 30321 30325 30333 30343 30348 30353 30355 30357 30361 30368 30369 30370 30371 30375 30377 30392 30394 30398 31106 31107 31126 31139 31141 31193 31196</zips>
+	</city>
+	<city>
+		<id>1840006060</id>
+		<name>Washington</name>
+		<state_abbrev>DC</state_abbrev>
+		<state>District of Columbia</state>
+		<capital>national</capital>
+		<lat>38.9047</lat>
+		<lng>-77.0163</lng>
+		<population>5116378</population>
+		<density>4235.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>20250 20010 20011 20012 20015 20520 20418 20415 20020 20024 20510 20515 20427 20422 20530 20542 20540 20240 20245 20204 20005 20004 20003 20002 20001 20009 20008 20317 20319 20390 20059 20057 20052 20388 20017 20018 20565 20566 20560 20591 20220 20064 20551 20230 20373 20260 20007 20006 20032 20036 20037 20431 20045 20408 20535 20016 20019 20013 20022 20026 20027 20029 20030 20033 20035 20038 20039 20040 20042 20043 20044 20047 20049 20050 20053 20055 20056 20058 20060 20061 20062 20063 20065 20066 20067 20068 20069 20070 20071 20073 20074 20075 20076 20077 20078 20080 20081 20082 20090 20091 20201 20202 20203 20206 20207 20208 20210 20211 20212 20213 20214 20215 20216 20217 20218 20219 20221 20222 20223 20224 20226 20227 20228 20229 20232 20233 20235 20237 20238 20239 20241 20242 20244 20251 20252 20254 20261 20262 20265 20266 20268 20270 20277 20289 20299 20301 20303 20306 20310 20314 20318 20330 20340 20350 20355 20370 20372 20374 20375 20376 20380 20389 20391 20392 20393 20394 20395 20398 20401 20402 20403 20404 20405 20406 20407 20410 20411 20412 20413 20414 20416 20417 20419 20420 20421 20423 20424 20425 20426 20428 20429 20433 20434 20435 20436 20437 20439 20440 20441 20442 20444 20447 20451 20453 20456 20460 20463 20468 20469 20470 20472 20500 20501 20502 20503 20504 20505 20506 20507 20508 20509 20511 20521 20522 20523 20524 20525 20526 20527 20528 20529 20531 20533 20534 20536 20537 20538 20539 20541 20543 20544 20546 20547 20548 20549 20552 20553 20554 20555 20557 20559 20570 20571 20572 20573 20575 20576 20577 20578 20579 20580 20581 20585 20586 20590 20593 20594 20597 20599 56901 56902 56904 56908 56915 56920 56933 56935 56944 56945 56950 56965 56967 56972 56998 56999</zips>
+	</city>
+	<city>
+		<id>1840000455</id>
+		<name>Boston</name>
+		<state_abbrev>MA</state_abbrev>
+		<state>Massachusetts</state>
+		<capital>state</capital>
+		<lat>42.3188</lat>
+		<lng>-71.0852</lng>
+		<population>4328315</population>
+		<density>5319</density>
+		<timezone>America/New_York</timezone>
+		<zips>02120 02121 02122 02124 02125 02126 02127 02128 02129 02210 02215 02467 02119 02118 02111 02110 02113 02115 02114 02116 02199 02134 02136 02135 02133 02132 02131 02130 02203 02205 02163 02108 02109 02112 02117 02123 02137 02196 02201 02206 02211 02212 02217 02222 02241 02283 02284 02293 02297 02298</zips>
+	</city>
+	<city>
+		<id>1840020568</id>
+		<name>Phoenix</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<capital>state</capital>
+		<lat>33.5722</lat>
+		<lng>-112.0892</lng>
+		<population>4064275</population>
+		<density>1198.9</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85009 85003 85006 85007 85004 85083 85086 85087 85085 85331 85033 85306 85308 85020 85021 85022 85023 85024 85026 85027 85028 85029 85353 85019 85018 85013 85012 85015 85014 85016 85254 85008 85044 85045 85042 85043 85040 85041 85048 85037 85035 85034 85032 85031 85017 85304 85307 85266 85310 85054 85051 85050 85053 85001 85002 85005 85010 85011 85030 85036 85038 85046 85060 85061 85062 85063 85064 85066 85067 85068 85069 85070 85071 85072 85074 85076 85078 85079 85080 85082</zips>
+	</city>
+	<city>
+		<id>1840018789</id>
+		<name>Denver</name>
+		<state_abbrev>CO</state_abbrev>
+		<state>Colorado</state>
+		<capital>state</capital>
+		<lat>39.762</lat>
+		<lng>-104.8758</lng>
+		<population>2687458</population>
+		<density>1792.9</density>
+		<timezone>America/Denver</timezone>
+		<zips>80264 80266 80230 80231 80236 80237 80235 80238 80239 80123 80249 80247 80246 80290 80293 80294 80218 80210 80212 80216 80221 80220 80223 80222 80224 80227 80219 80211 80209 80207 80206 80205 80204 80202 80203 80208 80217 80243 80248 80250 80256 80257 80259 80261 80265 80271 80273 80274 80281 80291 80299</zips>
+	</city>
+	<city>
+		<id>1840021491</id>
+		<name>Sacramento</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<capital>state</capital>
+		<lat>38.5677</lat>
+		<lng>-121.4685</lng>
+		<population>1957738</population>
+		<density>2049.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95821 95820 95823 95838 95832 95833 95831 95834 95835 95811 95814 95815 95818 95819 95828 95822 95825 95824 95826 95816 95817 94203 94204 94205 94209 94229 94230 94232 94235 94236 94237 94239 94240 94244 94247 94248 94249 94250 94252 94254 94256 94257 94258 94259 94261 94262 94263 94267 94268 94269 94271 94273 94274 94277 94278 94279 94280 94283 94284 94285 94287 94288 94289 94290 94293 94294 94295 94296 94297 94298 94299 95812 95813 95840 95851 95852 95853 95867 95894</zips>
+	</city>
+	<city>
+		<id>1840019590</id>
+		<name>Austin</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<capital>state</capital>
+		<lat>30.3005</lat>
+		<lng>-97.7522</lng>
+		<population>1905945</population>
+		<density>1154.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78749 78748 78741 78742 78745 78744 78747 78746 78717 78712 78719 78617 78739 78735 78736 78730 78731 78732 78733 78705 78704 78701 78703 78702 78758 78759 78752 78753 78750 78751 78756 78757 78754 78652 78723 78722 78721 78727 78726 78725 78724 78729 78728 73301 73344 78651 78708 78709 78710 78711 78713 78714 78715 78718 78720 78755 78760 78761 78762 78763 78765 78766 78767 78768 78772 78773 78774 78778 78779 78783 78799</zips>
+	</city>
+	<city>
+		<id>1840030084</id>
+		<name>Indianapolis</name>
+		<state_abbrev>IN</state_abbrev>
+		<state>Indiana</state>
+		<capital>state</capital>
+		<lat>39.7771</lat>
+		<lng>-86.1458</lng>
+		<population>1729849</population>
+		<density>941.8</density>
+		<timezone>America/Indiana/Indianapolis</timezone>
+		<zips>46234 46237 46218 46219 46217 46214 46260 46268 46226 46225 46183 46231 46235 46236 46239 46254 46250 46208 46201 46203 46202 46205 46204 46206 46256 46259 46227 46224 46222 46221 46220 46229 46228 46113 46278 46241 46240 46207 46209 46230 46242 46244 46247 46251 46253 46255 46262 46277 46282 46283 46285 46288 46298</zips>
+	</city>
+	<city>
+		<id>1840003289</id>
+		<name>Providence</name>
+		<state_abbrev>RI</state_abbrev>
+		<state>Rhode Island</state>
+		<capital>state</capital>
+		<lat>41.823</lat>
+		<lng>-71.4187</lng>
+		<population>1290271</population>
+		<density>3979.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>02903 02906 02907 02908 02904 02905 02909 02912 02918 02901 02902 02940</zips>
+	</city>
+	<city>
+		<id>1840036155</id>
+		<name>Nashville</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<capital>state</capital>
+		<lat>36.1715</lat>
+		<lng>-86.7842</lng>
+		<population>1177657</population>
+		<density>555.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>37027 37138 37076 37072 37203 37206 37201 37080 37218 37219 37216 37217 37214 37215 37212 37213 37210 37211 37189 37232 37238 37209 37208 37205 37204 37207 37115 37013 37228 37221 37220 37143 37011 37116 37202 37222 37224 37227 37229 37230 37234 37235 37236 37240 37241 37242 37243 37244 37246 37250</zips>
+	</city>
+	<city>
+		<id>1840021383</id>
+		<name>Salt Lake City</name>
+		<state_abbrev>UT</state_abbrev>
+		<state>Utah</state>
+		<capital>state</capital>
+		<lat>40.7776</lat>
+		<lng>-111.9311</lng>
+		<population>1173879</population>
+		<density>700.8</density>
+		<timezone>America/Denver</timezone>
+		<zips>84116 84115 84114 84113 84112 84111 84128 84150 84180 84108 84101 84102 84103 84104 84105 84106 84138 84110 84122 84132 84133 84134 84139 84143 84145 84147 84148 84151 84152 84158 84199</zips>
+	</city>
+	<city>
+		<id>1840014497</id>
+		<name>Raleigh</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<capital>state</capital>
+		<lat>35.8324</lat>
+		<lng>-78.6429</lng>
+		<population>1163152</population>
+		<density>1210</density>
+		<timezone>America/New_York</timezone>
+		<zips>27617 27616 27615 27614 27613 27612 27610 27609 27601 27603 27604 27605 27606 27608 27607 27697 27695 27602 27619 27620 27622 27624 27626 27627 27628 27634 27636 27640 27650 27656 27658 27661 27668 27675 27676 27690 27698</zips>
+	</city>
+	<city>
+		<id>1840001698</id>
+		<name>Richmond</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<capital>state</capital>
+		<lat>37.5295</lat>
+		<lng>-77.4756</lng>
+		<population>1073223</population>
+		<density>1463.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>23222 23223 23298 23284 23220 23221 23226 23227 23224 23225 23230 23235 23234 23219 23173 23218 23232 23249 23260 23261 23269 23274 23276 23278 23282 23285 23286 23289 23290 23291 23292 23295</zips>
+	</city>
+	<city>
+		<id>1840020428</id>
+		<name>Oklahoma City</name>
+		<state_abbrev>OK</state_abbrev>
+		<state>Oklahoma</state>
+		<capital>state</capital>
+		<lat>35.4676</lat>
+		<lng>-97.5136</lng>
+		<population>998806</population>
+		<density>433.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>73099 73119 73118 73114 73117 73116 73111 73110 73112 73020 73012 73013 73142 73141 73145 73149 73169 73078 73108 73109 73106 73107 74857 73139 73132 73131 73135 73134 73008 73097 73084 73105 73162 73103 73054 73151 73150 73159 73064 73104 73102 73179 73173 73170 73049 73160 73165 73127 73120 73121 73122 73128 73129 73101 73113 73124 73125 73126 73136 73137 73143 73144 73146 73147 73148 73152 73154 73155 73157 73163 73164 73167 73172 73178 73184 73189 73190 73194 73195</zips>
+	</city>
+	<city>
+		<id>1840004773</id>
+		<name>Hartford</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<capital>state</capital>
+		<lat>41.7661</lat>
+		<lng>-72.6834</lng>
+		<population>974684</population>
+		<density>2689.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>06106 06105 06103 06120 06112 06114 06101 06102 06104 06115 06123 06126 06127 06132 06133 06134 06140 06141 06142 06143 06144 06145 06146 06147 06150 06151 06152 06154 06160 06167 06176 06183</zips>
+	</city>
+	<city>
+		<id>1840013941</id>
+		<name>Baton Rouge</name>
+		<state_abbrev>LA</state_abbrev>
+		<state>Louisiana</state>
+		<capital>state</capital>
+		<lat>30.442</lat>
+		<lng>-91.1311</lng>
+		<population>635671</population>
+		<density>1001.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>70836 70808 70809 70802 70803 70801 70806 70807 70805 70820 70825 70819 70813 70812 70815 70814 70816 70804 70821 70822 70823 70827 70831 70833 70835 70873 70874 70891 70892 70893 70894 70895 70898</zips>
+	</city>
+	<city>
+		<id>1840014730</id>
+		<name>Columbia</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<capital>state</capital>
+		<lat>34.0378</lat>
+		<lng>-80.9036</lng>
+		<population>604065</population>
+		<density>383.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>29203 29207 29205 29208 29209 29225 29212 29210 29201 29206 29204 29202 29214 29215 29216 29217 29218 29220 29224 29226 29240 29250</zips>
+	</city>
+	<city>
+		<id>1840000417</id>
+		<name>Albany</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<capital>state</capital>
+		<lat>42.6664</lat>
+		<lng>-73.7987</lng>
+		<population>590694</population>
+		<density>1798.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>12208 12209 12204 12206 12207 12202 12203 12205 12210 12226 12222 12201 12223 12228 12229 12230 12231 12232 12233 12234 12235 12236 12237 12238 12239 12240 12241 12242 12243 12244 12245 12246 12248 12250 12255 12257 12260 12261</zips>
+	</city>
+	<city>
+		<id>1840007069</id>
+		<name>Des Moines</name>
+		<state_abbrev>IA</state_abbrev>
+		<state>Iowa</state>
+		<capital>state</capital>
+		<lat>41.5725</lat>
+		<lng>-93.6105</lng>
+		<population>548926</population>
+		<density>933.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>50309 50312 50314 50315 50316 50317 50310 50313 50319 50321 50320 50311 50301 50302 50303 50304 50305 50306 50307 50308 50318 50328 50329 50330 50331 50332 50335 50340 50380 50381 50391 50392 50393 50394 50395 50396 50936 50940 50947 50950 50980 50981 50982 50983</zips>
+	</city>
+	<city>
+		<id>1840001288</id>
+		<name>Harrisburg</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<capital>state</capital>
+		<lat>40.2752</lat>
+		<lng>-76.8843</lng>
+		<population>498329</population>
+		<density>2380.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>17101 17102 17103 17104 17120 17110 17105 17108 17121 17122 17123 17124 17125 17126 17127 17128 17129 17130</zips>
+	</city>
+	<city>
+		<id>1840015509</id>
+		<name>Little Rock</name>
+		<state_abbrev>AR</state_abbrev>
+		<state>Arkansas</state>
+		<capital>state</capital>
+		<lat>34.7256</lat>
+		<lng>-92.3577</lng>
+		<population>459409</population>
+		<density>649.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>72211 72210 72212 72223 72227 72209 72202 72201 72206 72207 72204 72205 72103 72215 72217 72219 72222 72225 72231 72255 72260 72295</zips>
+	</city>
+	<city>
+		<id>1840002915</id>
+		<name>Madison</name>
+		<state_abbrev>WI</state_abbrev>
+		<state>Wisconsin</state>
+		<capital>state</capital>
+		<lat>43.0822</lat>
+		<lng>-89.393</lng>
+		<population>451652</population>
+		<density>1268.3</density>
+		<timezone>America/Chicago</timezone>
+		<zips>53706 53704 53705 53703 53726 53792 53719 53718 53715 53714 53717 53716 53711 53713 53701 53702 53707 53708 53725 53774 53777 53782 53783 53784 53785 53786 53788 53790 53793 53794</zips>
+	</city>
+	<city>
+		<id>1840027142</id>
+		<name>Boise</name>
+		<state_abbrev>ID</state_abbrev>
+		<state>Idaho</state>
+		<capital>state</capital>
+		<lat>43.6005</lat>
+		<lng>-116.2308</lng>
+		<population>449776</population>
+		<density>1072.4</density>
+		<timezone>America/Boise</timezone>
+		<zips>83703 83702 83706 83705 83704 83709 83712 83716 83713 83725 83720 83701 83708 83715 83717 83722 83724 83728 83729 83735 83756 83799</zips>
+	</city>
+	<city>
+		<id>1840001383</id>
+		<name>Trenton</name>
+		<state_abbrev>NJ</state_abbrev>
+		<state>New Jersey</state>
+		<capital>state</capital>
+		<lat>40.2237</lat>
+		<lng>-74.7641</lng>
+		<population>362179</population>
+		<density>4571.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>08638 08611 08618 08629 08609 08608 08601 08603 08604 08605 08607 08625 08645 08646 08647 08666 08695</zips>
+	</city>
+	<city>
+		<id>1840013305</id>
+		<name>Honolulu</name>
+		<state_abbrev>HI</state_abbrev>
+		<state>Hawaii</state>
+		<capital>state</capital>
+		<lat>21.3294</lat>
+		<lng>-157.846</lng>
+		<population>348547</population>
+		<density>2219.9</density>
+		<timezone>Pacific/Honolulu</timezone>
+		<zips>96859 96858 96850 96819 96820 96822 96826 96813 96815 96814 96817 96816 96818 96848 96801 96802 96803 96804 96805 96806 96807 96808 96809 96810 96811 96812 96823 96828 96830 96836 96837 96838 96839 96840 96841 96843 96844 96846 96847 96849 96898</zips>
+	</city>
+	<city>
+		<id>1840014895</id>
+		<name>Jackson</name>
+		<state_abbrev>MS</state_abbrev>
+		<state>Mississippi</state>
+		<capital>state</capital>
+		<lat>32.3157</lat>
+		<lng>-90.2125</lng>
+		<population>335171</population>
+		<density>529.9</density>
+		<timezone>America/Chicago</timezone>
+		<zips>39272 39206 39204 39203 39202 39201 39209 39269 39174 39210 39211 39212 39213 39216 39217 39060 39205 39207 39215 39225 39236 39250 39271 39282 39283 39284 39286 39289 39296 39298</zips>
+	</city>
+	<city>
+		<id>1840003102</id>
+		<name>Lansing</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<capital>state</capital>
+		<lat>42.7142</lat>
+		<lng>-84.5601</lng>
+		<population>322561</population>
+		<density>1114.5</density>
+		<timezone>America/Detroit</timezone>
+		<zips>48912 48933 48915 48911 48910 48906 48901 48909 48916 48919 48922 48924 48929 48930 48937 48951 48956</zips>
+	</city>
+	<city>
+		<id>1840008940</id>
+		<name>St. Paul</name>
+		<state_abbrev>MN</state_abbrev>
+		<state>Minnesota</state>
+		<capital>state</capital>
+		<lat>44.9478</lat>
+		<lng>-93.1039</lng>
+		<population>308806</population>
+		<density>2294.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>55114 55117 55116 55119 55130 55101 55155 55102 55103 55106 55107 55104 55105 55108 55131 55133 55144 55145 55146 55164 55170</zips>
+	</city>
+	<city>
+		<id>1840009357</id>
+		<name>Lincoln</name>
+		<state_abbrev>NE</state_abbrev>
+		<state>Nebraska</state>
+		<capital>state</capital>
+		<lat>40.8099</lat>
+		<lng>-96.6784</lng>
+		<population>290531</population>
+		<density>1132.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>68528 68524 68526 68520 68521 68522 68514 68516 68510 68512 68506 68507 68504 68505 68502 68503 68508 68588 68509 68529 68542 68544 68583</zips>
+	</city>
+	<city>
+		<id>1840021224</id>
+		<name>Salem</name>
+		<state_abbrev>OR</state_abbrev>
+		<state>Oregon</state>
+		<capital>state</capital>
+		<lat>44.9233</lat>
+		<lng>-123.0244</lng>
+		<population>266420</population>
+		<density>1387.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>97302 97301 97306 97304 97310 97317 97309 97311 97312 97314</zips>
+	</city>
+	<city>
+		<id>1840015913</id>
+		<name>Tallahassee</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<capital>state</capital>
+		<lat>30.4551</lat>
+		<lng>-84.2527</lng>
+		<population>258696</population>
+		<density>751.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>32310 32312 32313 32399 32307 32306 32304 32303 32301 32309 32308 32311 32302 32314 32315 32316</zips>
+	</city>
+	<city>
+		<id>1840008353</id>
+		<name>Montgomery</name>
+		<state_abbrev>AL</state_abbrev>
+		<state>Alabama</state>
+		<capital>state</capital>
+		<lat>32.3482</lat>
+		<lng>-86.2668</lng>
+		<population>251158</population>
+		<density>482.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>36112 36113 36110 36111 36116 36114 36115 36109 36130 36117 36101 36105 36104 36107 36106 36057 36108 36118 36120 36121 36123 36124 36125 36131 36132 36135 36140 36141 36142 36177 36191</zips>
+	</city>
+	<city>
+		<id>1840019865</id>
+		<name>Olympia</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<capital>state</capital>
+		<lat>47.0417</lat>
+		<lng>-122.8959</lng>
+		<population>210877</population>
+		<density>1168.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98502 98501 98506 98504 98507 98508</zips>
+	</city>
+	<city>
+		<id>1840009517</id>
+		<name>Springfield</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<capital>state</capital>
+		<lat>39.7709</lat>
+		<lng>-89.654</lng>
+		<population>159671</population>
+		<density>721</density>
+		<timezone>America/Chicago</timezone>
+		<zips>62711 62712 62629 62702 62703 62701 62706 62707 62704 62705 62715 62716 62719 62722 62726 62736 62739 62756 62757 62761 62762 62763 62765 62766 62767 62769 62776 62777 62781 62786 62796</zips>
+	</city>
+	<city>
+		<id>1840001621</id>
+		<name>Topeka</name>
+		<state_abbrev>KS</state_abbrev>
+		<state>Kansas</state>
+		<capital>state</capital>
+		<lat>39.0346</lat>
+		<lng>-95.6955</lng>
+		<population>148185</population>
+		<density>792.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>66621 66622 66609 66608 66607 66606 66605 66604 66603 66619 66611 66612 66614 66616 66601 66624 66625 66626 66629 66636 66647 66667 66675 66683 66699</zips>
+	</city>
+	<city>
+		<id>1840005810</id>
+		<name>Dover</name>
+		<state_abbrev>DE</state_abbrev>
+		<state>Delaware</state>
+		<capital>state</capital>
+		<lat>39.161</lat>
+		<lng>-75.5202</lng>
+		<population>130186</population>
+		<density>634.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>19902 19901 19904 19905 19906</zips>
+	</city>
+	<city>
+		<id>1840006196</id>
+		<name>Charleston</name>
+		<state_abbrev>WV</state_abbrev>
+		<state>West Virginia</state>
+		<capital>state</capital>
+		<lat>38.3484</lat>
+		<lng>-81.6322</lng>
+		<population>129754</population>
+		<density>594.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>25387 25305 25304 25303 25302 25301 25311 25314 25317 25321 25322 25323 25324 25325 25326 25327 25328 25329 25330 25331 25332 25333 25334 25335 25336 25337 25338 25339 25350 25364 25375 25392 25396</zips>
+	</city>
+	<city>
+		<id>1840001926</id>
+		<name>Bismarck</name>
+		<state_abbrev>ND</state_abbrev>
+		<state>North Dakota</state>
+		<capital>state</capital>
+		<lat>46.8143</lat>
+		<lng>-100.7694</lng>
+		<population>99433</population>
+		<density>820.3</density>
+		<timezone>America/Chicago</timezone>
+		<zips>58505 58504 58501 58503 58507</zips>
+	</city>
+	<city>
+		<id>1840021707</id>
+		<name>Santa Fe</name>
+		<state_abbrev>NM</state_abbrev>
+		<state>New Mexico</state>
+		<capital>state</capital>
+		<lat>35.6619</lat>
+		<lng>-105.9819</lng>
+		<population>93165</population>
+		<density>647.7</density>
+		<timezone>America/Denver</timezone>
+		<zips>87505 87507 87501 87502 87503 87509</zips>
+	</city>
+	<city>
+		<id>1840018713</id>
+		<name>Cheyenne</name>
+		<state_abbrev>WY</state_abbrev>
+		<state>Wyoming</state>
+		<capital>state</capital>
+		<lat>41.135</lat>
+		<lng>-104.7902</lng>
+		<population>78204</population>
+		<density>734</density>
+		<timezone>America/Denver</timezone>
+		<zips>82009 82001 82007 82002 82003</zips>
+	</city>
+	<city>
+		<id>1840003826</id>
+		<name>Carson City</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<capital>state</capital>
+		<lat>39.1511</lat>
+		<lng>-119.7476</lng>
+		<population>58249</population>
+		<density>155.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89701 89703 89706 89711 89712 89713 89714</zips>
+	</city>
+	<city>
+		<id>1840002747</id>
+		<name>Concord</name>
+		<state_abbrev>NH</state_abbrev>
+		<state>New Hampshire</state>
+		<capital>state</capital>
+		<lat>43.2305</lat>
+		<lng>-71.5595</lng>
+		<population>44049</population>
+		<density>265.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>03303 03301 03302 03305</zips>
+	</city>
+	<city>
+		<id>1840008615</id>
+		<name>Jefferson City</name>
+		<state_abbrev>MO</state_abbrev>
+		<state>Missouri</state>
+		<capital>state</capital>
+		<lat>38.5676</lat>
+		<lng>-92.1759</lng>
+		<population>42644</population>
+		<density>456.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>65101 65109 65102 65103 65104 65105 65106 65107 65108 65110 65111</zips>
+	</city>
+	<city>
+		<id>1840019820</id>
+		<name>Helena</name>
+		<state_abbrev>MT</state_abbrev>
+		<state>Montana</state>
+		<capital>state</capital>
+		<lat>46.5965</lat>
+		<lng>-112.0202</lng>
+		<population>32529</population>
+		<density>744.9</density>
+		<timezone>America/Denver</timezone>
+		<zips>59601 59602 59625 59623 59624 59626</zips>
+	</city>
+	<city>
+		<id>1840023306</id>
+		<name>Juneau</name>
+		<state_abbrev>AK</state_abbrev>
+		<state>Alaska</state>
+		<capital>state</capital>
+		<lat>58.4546</lat>
+		<lng>-134.1739</lng>
+		<population>32108</population>
+		<density>4.6</density>
+		<timezone>America/Juneau</timezone>
+		<zips>99824 99801 99802 99803 99811 99812 99821</zips>
+	</city>
+	<city>
+		<id>1840013210</id>
+		<name>Frankfort</name>
+		<state_abbrev>KY</state_abbrev>
+		<state>Kentucky</state>
+		<capital>state</capital>
+		<lat>38.1924</lat>
+		<lng>-84.8643</lng>
+		<population>28460</population>
+		<density>744</density>
+		<timezone>America/New_York</timezone>
+		<zips>40601 40603 40618 40619 40620 40621 40622</zips>
+	</city>
+	<city>
+		<id>1840000302</id>
+		<name>Augusta</name>
+		<state_abbrev>ME</state_abbrev>
+		<state>Maine</state>
+		<capital>state</capital>
+		<lat>44.3341</lat>
+		<lng>-69.7319</lng>
+		<population>18938</population>
+		<density>132.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>04330 04332 04333 04336 04338</zips>
+	</city>
+	<city>
+		<id>1840000313</id>
+		<name>Pierre</name>
+		<state_abbrev>SD</state_abbrev>
+		<state>South Dakota</state>
+		<capital>state</capital>
+		<lat>44.3748</lat>
+		<lng>-100.3205</lng>
+		<population>14105</population>
+		<density>418</density>
+		<timezone>America/Chicago</timezone>
+		<zips>57501</zips>
+	</city>
+	<city>
+		<id>1840039445</id>
+		<name>Annapolis Neck</name>
+		<state_abbrev>MD</state_abbrev>
+		<state>Maryland</state>
+		<capital>state</capital>
+		<lat>38.9409</lat>
+		<lng>-76.4997</lng>
+		<population>12712</population>
+		<density>707.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>21403</zips>
+	</city>
+	<city>
+		<id>1840002187</id>
+		<name>Montpelier</name>
+		<state_abbrev>VT</state_abbrev>
+		<state>Vermont</state>
+		<capital>state</capital>
+		<lat>44.2659</lat>
+		<lng>-72.5717</lng>
+		<population>8030</population>
+		<density>308.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>05602 05603 05604 05620 05633</zips>
+	</city>
+	<city>
+		<id>1840011751</id>
+		<name>Columbus Grove</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<capital>state</capital>
+		<lat>40.9205</lat>
+		<lng>-84.0598</lng>
+		<population>1678</population>
+		<density>527.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>45830</zips>
+	</city>
+	<city>
+		<id>1840034016</id>
+		<name>New York</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.6943</lat>
+		<lng>-73.9249</lng>
+		<population>18908608</population>
+		<density>11080.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>11229 11228 11226 11225 11224 11222 11221 11220 11385 10169 10168 10167 10165 10162 10282 10280 10040 10044 11109 11102 11103 11106 11104 11697 11694 11692 11693 11691 10271 10279 10278 10075 11249 10452 11451 10475 10474 10471 10470 10473 10472 11223 10103 11368 11369 11366 11367 11364 11365 11362 11363 11360 11361 10028 10029 10026 10027 10024 10025 10022 10023 10020 10021 11212 11213 11210 11211 11216 11217 11214 11215 11218 11219 10152 10153 10154 10310 10311 10312 10314 11439 11432 11433 11430 11436 11434 11435 10453 10451 10457 10456 10455 10454 10459 10458 10128 10004 10005 10006 10007 10001 10002 10003 10009 11238 11239 11230 11231 11232 11233 11234 11235 11236 11237 11379 11378 11375 11374 11377 11371 11370 11373 11372 10170 10171 10172 10173 10174 10177 11356 10039 10038 10035 10034 10037 10036 10031 10030 10033 10032 11201 11209 11203 11205 11204 11207 11206 11208 11411 11412 11413 11414 11415 11416 11417 11418 11419 11101 11105 11001 11005 11004 10065 10069 10199 10309 10308 10307 10306 10305 10304 10303 10302 10301 11429 11428 11421 11420 11423 11422 11424 11427 11426 10466 10467 10464 10465 10462 10463 10460 10461 10468 10469 10119 10115 10112 10110 10111 11359 11358 11357 11355 11354 10019 10018 10013 10012 10011 10010 10017 10016 10014 10008 10041 10043 10055 10060 10081 10087 10090 10101 10102 10104 10105 10106 10107 10108 10109 10113 10114 10116 10117 10118 10120 10121 10122 10123 10124 10125 10126 10129 10130 10131 10132 10133 10138 10150 10151 10155 10156 10157 10158 10159 10160 10163 10164 10166 10175 10176 10178 10179 10185 10203 10211 10212 10213 10242 10249 10256 10258 10259 10260 10261 10265 10268 10269 10270 10272 10273 10274 10275 10276 10277 10281 10285 10286 10313 11120 11202 11241 11242 11243 11245 11247 11251 11252 11256 11351 11352 11380 11386 11405 11425 11431 11437 11499 11690 11695</zips>
+	</city>
+	<city>
+		<id>1840020491</id>
+		<name>Los Angeles</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1141</lat>
+		<lng>-118.4068</lng>
+		<population>11922389</population>
+		<density>3184.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91367 90291 90293 90292 91316 91311 90035 90034 90037 90031 90039 90008 90004 90005 90006 90007 90001 90002 90003 91504 91040 90710 90089 91307 91344 91345 91340 91342 91343 90036 90247 91411 91436 91371 91608 91605 91604 91607 91606 91601 91602 90402 90068 90069 90062 90063 90061 90066 90067 90064 90065 90248 91326 91324 91325 90013 90012 90011 90010 90017 90016 90015 90014 91364 90028 90095 90094 91042 91352 91356 91406 91402 90041 90042 90043 90044 90045 90046 90047 90048 90049 90019 90018 91423 90210 91303 91304 91306 90079 90071 90077 90059 91331 91330 91335 90026 90027 90024 90025 90023 90020 90021 90029 90272 90732 90731 90230 91405 91403 91401 90033 90032 90038 90057 90052 90058 90744 90501 90502 90009 90030 90050 90051 90053 90054 90055 90060 90070 90072 90074 90075 90076 90078 90080 90081 90082 90083 90084 90086 90087 90088 90093 90099 90134 90140 90189 90213 90294 90295 90733 90734 90748 91041 91043 91305 91308 91309 91313 91327 91328 91333 91334 91337 91346 91353 91357 91365 91392 91393 91394 91395 91396 91404 91407 91408 91409 91410 91412 91413 91416 91426 91470 91482 91499 91603 91609 91610 91614 91615 91616 91617 91618</zips>
+	</city>
+	<city>
+		<id>1840000494</id>
+		<name>Chicago</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<lat>41.8375</lat>
+		<lng>-87.6866</lng>
+		<population>8497759</population>
+		<density>4614.5</density>
+		<timezone>America/Chicago</timezone>
+		<zips>60018 60649 60641 60640 60643 60642 60645 60644 60647 60646 60616 60617 60614 60615 60612 60613 60610 60611 60618 60619 60631 60827 60661 60660 60638 60639 60634 60636 60637 60630 60632 60633 60605 60604 60607 60606 60601 60603 60602 60609 60608 60106 60659 60652 60653 60656 60657 60654 60655 60651 60623 60622 60621 60620 60626 60625 60624 60629 60628 60707 60499 60664 60666 60668 60669 60670 60673 60674 60675 60677 60678 60680 60681 60684 60685 60686 60687 60688 60689 60690 60694 60695 60696 60699</zips>
+	</city>
+	<city>
+		<id>1840015149</id>
+		<name>Miami</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>25.784</lat>
+		<lng>-80.2101</lng>
+		<population>6080145</population>
+		<density>4758.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>33128 33129 33125 33126 33127 33149 33144 33145 33142 33139 33138 33137 33136 33135 33134 33133 33132 33131 33130 33150 33101 33109 33111 33151 33192 33195 33222 33231 33233 33238 33255 33299</zips>
+	</city>
+	<city>
+		<id>1840020925</id>
+		<name>Houston</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>29.786</lat>
+		<lng>-95.3885</lng>
+		<population>5970127</population>
+		<density>1384</density>
+		<timezone>America/Chicago</timezone>
+		<zips>77069 77068 77061 77060 77063 77062 77065 77064 77067 77066 77346 77571 77036 77037 77034 77035 77032 77033 77030 77031 77038 77449 77093 77044 77043 77042 77204 77598 77018 77019 77015 77016 77017 77010 77011 77012 77013 77094 77091 77092 77053 77345 77547 77080 77025 77024 77027 77026 77021 77020 77023 77022 77029 77028 77096 77090 77098 77099 77078 77079 77072 77073 77070 77071 77076 77077 77074 77075 77407 77047 77046 77045 77041 77040 77048 77336 77339 77338 77489 77003 77002 77007 77006 77005 77004 77009 77008 77450 77086 77089 77088 77083 77082 77081 77087 77085 77084 77054 77055 77056 77057 77058 77059 77396 77051 77506 77504 77001 77052 77201 77202 77203 77205 77206 77207 77208 77210 77212 77213 77215 77216 77217 77218 77219 77220 77221 77222 77223 77225 77226 77227 77228 77229 77230 77231 77233 77234 77235 77236 77237 77241 77242 77243 77244 77245 77248 77249 77251 77252 77253 77254 77255 77256 77257 77259 77261 77262 77263 77266 77269 77270 77271 77272 77273 77274 77275 77282 77284 77287 77288 77289 77291 77292 77293 77297 77299 77315 77325 77411</zips>
+	</city>
+	<city>
+		<id>1840019440</id>
+		<name>Dallas</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.7935</lat>
+		<lng>-96.7667</lng>
+		<population>5830932</population>
+		<density>1478.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75098 75287 75230 75231 75236 75237 75235 75254 75251 75252 75253 75043 75032 75227 75238 75232 75233 75234 75089 75088 75087 75247 75244 75249 75248 75051 75166 75210 75211 75212 75214 75215 75216 75217 75218 75219 75390 75182 75229 75228 75220 75223 75225 75224 75226 75243 75241 75240 75246 75270 75207 75206 75204 75203 75202 75201 75209 75208 75019 75221 75222 75242 75250 75260 75262 75263 75264 75266 75267 75277 75283 75284 75285 75301 75303 75312 75313 75315 75320 75336 75339 75342 75354 75355 75356 75357 75358 75359 75360 75367 75370 75371 75372 75373 75374 75376 75378 75379 75380 75382 75389 75392 75393 75394 75395 75397 75398</zips>
+	</city>
+	<city>
+		<id>1840000673</id>
+		<name>Philadelphia</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>40.0077</lat>
+		<lng>-75.1339</lng>
+		<population>5683533</population>
+		<density>4578.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>19154 19151 19150 19153 19152 19102 19103 19106 19107 19104 19108 19109 19128 19129 19120 19121 19122 19123 19124 19125 19126 19127 19112 19111 19115 19114 19116 19119 19118 19148 19149 19146 19147 19144 19145 19142 19143 19140 19141 19139 19138 19137 19136 19135 19134 19133 19132 19131 19130 19019 19092 19093 19099 19101 19105 19110 19155 19160 19161 19162 19170 19171 19172 19173 19175 19176 19177 19178 19179 19181 19182 19183 19184 19185 19187 19188 19190 19191 19192 19193 19194 19195 19196 19197 19244 19255</zips>
+	</city>
+	<city>
+		<id>1840003971</id>
+		<name>Detroit</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>42.3834</lat>
+		<lng>-83.1024</lng>
+		<population>3725908</population>
+		<density>1772.2</density>
+		<timezone>America/Detroit</timezone>
+		<zips>48209 48208 48202 48201 48207 48206 48205 48204 48227 48238 48239 48234 48235 48233 48203 48243 48228 48226 48214 48215 48216 48217 48210 48211 48212 48213 48219 48224 48221 48223 48231 48232 48244 48255 48260 48264 48266 48267 48268 48269 48272 48275 48277 48278 48279 48288</zips>
+	</city>
+	<city>
+		<id>1840021117</id>
+		<name>Seattle</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>47.6211</lat>
+		<lng>-122.3244</lng>
+		<population>3561397</population>
+		<density>3376.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98109 98108 98105 98104 98107 98106 98101 98103 98102 98154 98122 98121 98126 98125 98178 98174 98177 98144 98146 98195 98199 98118 98119 98116 98117 98115 98112 98164 98134 98136 98133 98111 98113 98114 98124 98127 98129 98139 98141 98145 98161 98165 98170 98175 98181 98185 98191 98194</zips>
+	</city>
+	<city>
+		<id>1840021543</id>
+		<name>San Francisco</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.7558</lat>
+		<lng>-122.4449</lng>
+		<population>3364979</population>
+		<density>7030.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94130 94131 94132 94133 94134 94103 94102 94105 94104 94188 94158 94124 94123 94122 94121 94129 94118 94108 94107 94112 94110 94116 94117 94114 94115 94111 94109 94127 94119 94120 94125 94137 94139 94140 94141 94142 94143 94144 94145 94146 94147 94151 94159 94160 94161 94163 94164 94172 94177</zips>
+	</city>
+	<city>
+		<id>1840021990</id>
+		<name>San Diego</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>32.8313</lat>
+		<lng>-117.1222</lng>
+		<population>3046560</population>
+		<density>1639.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92182 92109 92108 92107 92106 92103 92101 92111 92154 92110 92140 92161 92105 92104 92102 92071 92132 92130 92131 92136 92134 92139 92025 92027 92147 92145 92014 92093 92092 92119 92116 92117 92121 92120 92123 92122 92124 92127 92126 92129 92128 92037 92173 92113 92114 92115 92038 92039 92072 92112 92137 92138 92142 92143 92149 92150 92152 92153 92158 92159 92160 92163 92165 92166 92167 92168 92169 92170 92171 92172 92174 92175 92176 92177 92186 92187 92191 92192 92193 92195 92196 92197 92198 92199</zips>
+	</city>
+	<city>
+		<id>1840007830</id>
+		<name>Minneapolis</name>
+		<state_abbrev>MN</state_abbrev>
+		<state>Minnesota</state>
+		<lat>44.9635</lat>
+		<lng>-93.2678</lng>
+		<population>2892569</population>
+		<density>3052.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>55404 55409 55408 55407 55406 55405 55403 55402 55401 55454 55455 55430 55418 55419 55410 55411 55412 55413 55414 55415 55416 55417 55440 55458 55459 55467 55470 55472 55474 55478 55479 55480 55483 55484 55485 55486 55487 55488</zips>
+	</city>
+	<city>
+		<id>1840015982</id>
+		<name>Tampa</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>27.9945</lat>
+		<lng>-82.4447</lng>
+		<population>2861173</population>
+		<density>1320.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>33637 33629 33621 33620 33609 33604 33606 33602 33619 33616 33613 33617 33614 33610 33611 33612 33605 33607 33603 33647 33608 33622 33623 33630 33631 33633 33646 33650 33655 33664 33672 33673 33674 33677 33679 33681 33684 33686 33689</zips>
+	</city>
+	<city>
+		<id>1840034030</id>
+		<name>Brooklyn</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.6501</lat>
+		<lng>-73.9496</lng>
+		<population>2736074</population>
+		<density>15200.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>11229 11226 11225 11224 11223 11221 11220 11249 11228 11222 11212 11213 11210 11211 11216 11217 11214 11215 11218 11219 11238 11239 11230 11231 11232 11233 11234 11235 11236 11237 11208 11201 11203 11205 11204 11207 11206 11209 11202 11241 11242 11243 11245 11247 11251 11252 11256</zips>
+	</city>
+	<city>
+		<id>1840034002</id>
+		<name>Queens</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.7498</lat>
+		<lng>-73.7976</lng>
+		<population>2405464</population>
+		<density>8503.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>11385 11109 11102 11103 11106 11104 11379 11378 11377 11697 11694 11692 11693 11691 11451 11368 11369 11366 11367 11364 11365 11362 11363 11360 11361 11429 11439 11432 11433 11430 11436 11434 11435 11375 11374 11371 11370 11373 11372 11411 11412 11413 11414 11415 11416 11417 11418 11419 11101 11105 11001 11005 11004 11428 11421 11420 11423 11422 11424 11427 11426 11359 11358 11357 11356 11355 11354 11120 11351 11352 11380 11386 11405 11425 11431 11437 11499 11690 11695</zips>
+	</city>
+	<city>
+		<id>1840020551</id>
+		<name>Riverside</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.9381</lat>
+		<lng>-117.3949</lng>
+		<population>2332836</population>
+		<density>1503.9</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92508 92503 92501 92506 92505 92504 92507 92521 92502 92513 92514 92516 92517 92522</zips>
+	</city>
+	<city>
+		<id>1840020364</id>
+		<name>Las Vegas</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.2333</lat>
+		<lng>-115.2654</lng>
+		<population>2248047</population>
+		<density>1755.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89146 89149 89107 89106 89104 89102 89101 89108 89138 89130 89131 89134 89143 89145 89144 89110 89117 89129 89128 89124 88901 88905 89105 89114 89116 89125 89126 89127 89133 89137 89140 89151 89152 89153 89155 89163 89185 89195</zips>
+	</city>
+	<city>
+		<id>1840001592</id>
+		<name>Baltimore</name>
+		<state_abbrev>MD</state_abbrev>
+		<state>Maryland</state>
+		<lat>39.3051</lat>
+		<lng>-76.6144</lng>
+		<population>2196524</population>
+		<density>2788.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>21218 21211 21210 21213 21212 21215 21214 21217 21216 21233 21231 21230 21239 21251 21209 21202 21206 21207 21205 21287 21223 21226 21201 21224 21225 21229 21203 21263 21264 21270 21273 21275 21278 21279 21281 21290 21297 21298</zips>
+	</city>
+	<city>
+		<id>1840001651</id>
+		<name>St. Louis</name>
+		<state_abbrev>MO</state_abbrev>
+		<state>Missouri</state>
+		<lat>38.6359</lat>
+		<lng>-90.2451</lng>
+		<population>2130881</population>
+		<density>1864.3</density>
+		<timezone>America/Chicago</timezone>
+		<zips>63110 63111 63112 63113 63115 63116 63118 63120 63107 63106 63104 63103 63102 63101 63109 63108 63155 63139 63137 63143 63147 63150 63156 63157 63158 63160 63163 63164 63166 63169 63177 63178 63179 63180 63188 63197</zips>
+	</city>
+	<city>
+		<id>1840019941</id>
+		<name>Portland</name>
+		<state_abbrev>OR</state_abbrev>
+		<state>Oregon</state>
+		<lat>45.5371</lat>
+		<lng>-122.65</lng>
+		<population>2095808</population>
+		<density>1868.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>97227 97221 97220 97229 97203 97202 97201 97206 97205 97204 97209 97208 97258 97266 97219 97213 97236 97232 97233 97230 97239 97218 97214 97215 97216 97217 97210 97211 97212 97207 97228 97238 97240 97242 97250 97251 97252 97253 97254 97256 97280 97282 97283 97286 97290 97291 97292 97293 97294</zips>
+	</city>
+	<city>
+		<id>1840022220</id>
+		<name>San Antonio</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>29.4632</lat>
+		<lng>-98.5238</lng>
+		<population>2058444</population>
+		<density>1118.8</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78112 78239 78259 78258 78252 78251 78250 78257 78256 78255 78254 78208 78201 78202 78203 78204 78205 78207 78245 78242 78248 78231 78230 78233 78232 78235 78234 78237 78238 78209 78109 78266 78264 78260 78219 78218 78217 78216 78215 78214 78213 78212 78211 78210 78244 78247 78240 78249 78073 78023 78222 78223 78220 78221 78226 78227 78224 78225 78228 78229 78206 78241 78246 78265 78268 78269 78270 78278 78279 78280 78283 78284 78285 78288 78289 78291 78292 78293 78294 78295 78296 78297 78298 78299</zips>
+	</city>
+	<city>
+		<id>1840015099</id>
+		<name>Orlando</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.4773</lat>
+		<lng>-81.337</lng>
+		<population>1882705</population>
+		<density>1070.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>32829 32827 32824 32822 32804 32805 32806 32807 32801 32803 32808 32839 32835 32832 32819 32811 32812 32814 32802 32853 32854 32856 32861 32862 32872 32877 32885 32886 32891 32897</zips>
+	</city>
+	<city>
+		<id>1630035577</id>
+		<name>San Juan</name>
+		<state_abbrev>PR</state_abbrev>
+		<state>Puerto Rico</state>
+		<lat>18.3985</lat>
+		<lng>-66.061</lng>
+		<population>1814587</population>
+		<density>3128.8</density>
+		<timezone>America/Puerto_Rico</timezone>
+		<zips>00918 00913 00912 00911 00917 00915 00926 00927 00924 00925 00923 00920 00921 00906 00907 00901 00909 00969 00908 00910 00919 00922 00928 00929 00931 00935 00936 00937 00939 00940 00955 00975</zips>
+	</city>
+	<city>
+		<id>1840021570</id>
+		<name>San Jose</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.3012</lat>
+		<lng>-121.848</lng>
+		<population>1771413</population>
+		<density>2172.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95119 95118 95128 95124 95125 95122 95008 95002 95117 95116 95111 95110 95113 95112 95126 95127 95120 95123 95148 95133 95132 95131 95130 95136 95134 95139 95138 95037 95013 95129 95121 95101 95103 95106 95109 95115 95141 95150 95151 95153 95154 95155 95156 95157 95158 95159 95160 95161 95164 95172 95173 95190 95191 95192 95193 95194 95196</zips>
+	</city>
+	<city>
+		<id>1840001254</id>
+		<name>Pittsburgh</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>40.4397</lat>
+		<lng>-79.9763</lng>
+		<population>1749091</population>
+		<density>2118.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>15282 15216 15217 15214 15212 15213 15210 15211 15218 15219 15290 15232 15260 15233 15205 15204 15207 15206 15201 15203 15208 15234 15222 15221 15220 15226 15224 15120 15230 15240 15250 15251 15252 15253 15254 15255 15257 15258 15259 15261 15262 15264 15265 15267 15270 15272 15274 15279 15281 15286 15289 15295</zips>
+	</city>
+	<city>
+		<id>1840034000</id>
+		<name>Manhattan</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.7834</lat>
+		<lng>-73.9662</lng>
+		<population>1694263</population>
+		<density>28653.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>10169 10168 10167 10165 10162 10282 10280 10040 10044 10271 10279 10278 10075 10103 10028 10029 10026 10027 10024 10025 10022 10023 10020 10021 10152 10153 10154 10128 10004 10005 10006 10007 10001 10002 10003 10009 10170 10171 10172 10173 10174 10177 10039 10038 10035 10034 10037 10036 10031 10030 10033 10032 10065 10069 10199 10119 10115 10112 10110 10111 10019 10018 10013 10012 10011 10010 10017 10016 10014 10008 10041 10043 10055 10060 10081 10087 10090 10101 10102 10104 10105 10106 10107 10108 10109 10113 10114 10116 10117 10118 10120 10121 10122 10123 10124 10125 10126 10129 10130 10131 10132 10133 10138 10150 10151 10155 10156 10157 10158 10159 10160 10163 10164 10166 10175 10176 10178 10179 10185 10203 10211 10212 10213 10242 10249 10256 10258 10259 10260 10261 10265 10268 10269 10270 10273 10274 10275 10276 10277 10281 10285 10286</zips>
+	</city>
+	<city>
+		<id>1840003814</id>
+		<name>Cincinnati</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>39.1413</lat>
+		<lng>-84.506</lng>
+		<population>1692702</population>
+		<density>1530.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>45267 45219 45213 45212 45211 45217 45216 45214 45233 45226 45227 45225 45223 45229 45224 45232 45204 45205 45206 45207 45202 45203 45208 45209 45239 45238 45237 45220 45230 45201 45221 45250 45254 45262 45263 45264 45268 45269 45270 45271 45273 45274 45275 45296 45298 45299 45999</zips>
+	</city>
+	<city>
+		<id>1840008535</id>
+		<name>Kansas City</name>
+		<state_abbrev>MO</state_abbrev>
+		<state>Missouri</state>
+		<lat>39.1238</lat>
+		<lng>-94.5541</lng>
+		<population>1689556</population>
+		<density>620.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>64161 64163 64164 64165 64167 64053 64118 64116 64151 64153 64155 64154 64157 64156 64158 64108 64109 64106 64102 64128 64129 64124 64125 64126 64127 64120 64123 64166 64119 64114 64117 64111 64110 64113 64112 64133 64146 64145 64149 64147 64105 64101 64139 64138 64132 64131 64130 64137 64136 64134 64121 64141 64148 64162 64170 64171 64179 64180 64184 64187 64188 64191 64195 64196 64197 64198 64199 64999</zips>
+	</city>
+	<city>
+		<id>1840000596</id>
+		<name>Cleveland</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>41.4764</lat>
+		<lng>-81.6805</lng>
+		<population>1680247</population>
+		<density>1839.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>44135 44120 44119 44113 44112 44111 44110 44115 44114 44144 44128 44127 44104 44105 44106 44101 44102 44103 44108 44109 44181 44190 44191 44192 44193 44194 44195 44197 44198 44199</zips>
+	</city>
+	<city>
+		<id>1840003760</id>
+		<name>Columbus</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>39.9862</lat>
+		<lng>-82.9855</lng>
+		<population>1572546</population>
+		<density>1581</density>
+		<timezone>America/New_York</timezone>
+		<zips>43109 43026 43054 43220 43221 43222 43223 43224 43081 43228 43227 43213 43212 43215 43214 43217 43219 43218 43002 43004 43068 43085 43240 43229 43235 43232 43231 43230 43119 43110 43017 43016 43137 43211 43210 43202 43203 43201 43206 43207 43204 43205 43209 43236 43251 43260 43266 43268 43270 43271 43272 43279 43287 43291</zips>
+	</city>
+	<city>
+		<id>1840033999</id>
+		<name>Bronx</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.8501</lat>
+		<lng>-73.8662</lng>
+		<population>1472654</population>
+		<density>13356.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>10452 10475 10474 10471 10470 10473 10472 10453 10451 10457 10456 10455 10454 10459 10458 11370 10466 10467 10464 10465 10462 10463 10460 10461 10468 10469</zips>
+	</city>
+	<city>
+		<id>1840003871</id>
+		<name>Virginia Beach</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>36.7335</lat>
+		<lng>-76.0435</lng>
+		<population>1443020</population>
+		<density>722.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>23459 23451 23453 23452 23455 23457 23456 23454 23460 23461 23462 23464 23450 23458 23463 23465 23466 23467 23471 23479</zips>
+	</city>
+	<city>
+		<id>1840014557</id>
+		<name>Charlotte</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.2083</lat>
+		<lng>-80.8303</lng>
+		<population>1427444</population>
+		<density>1089.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>28269 28262 28105 28280 28282 28209 28208 28205 28204 28207 28206 28203 28202 28223 28227 28226 28278 28270 28273 28274 28277 28134 28216 28217 28214 28215 28212 28213 28210 28211 28244 28126 28130 28201 28218 28219 28220 28221 28222 28224 28228 28229 28230 28231 28232 28233 28234 28235 28237 28241 28242 28243 28246 28247 28253 28254 28255 28256 28258 28260 28263 28265 28266 28271 28272 28275 28281 28284 28285 28287 28288 28289 28290 28296 28297 28299</zips>
+	</city>
+	<city>
+		<id>1840003046</id>
+		<name>Milwaukee</name>
+		<state_abbrev>WI</state_abbrev>
+		<state>Wisconsin</state>
+		<lat>43.0642</lat>
+		<lng>-87.9675</lng>
+		<population>1290940</population>
+		<density>2301.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>53203 53202 53207 53206 53205 53204 53209 53208 53233 53218 53219 53214 53215 53216 53210 53211 53212 53213 53295 53225 53224 53221 53220 53223 53222 53228 53201 53237 53259 53263 53274 53278 53288 53290 53293</zips>
+	</city>
+	<city>
+		<id>1840015031</id>
+		<name>Jacksonville</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>30.3322</lat>
+		<lng>-81.6749</lng>
+		<population>1288298</population>
+		<density>491</density>
+		<timezone>America/New_York</timezone>
+		<zips>32224 32225 32226 32227 32220 32221 32222 32223 32228 32219 32218 32214 32217 32216 32211 32210 32212 32246 32244 32233 32234 32202 32250 32254 32257 32256 32208 32209 32206 32207 32204 32205 32203 32258 32277 32099 32201 32229 32231 32232 32235 32236 32238 32239 32241 32245 32247 32255</zips>
+	</city>
+	<city>
+		<id>1840015457</id>
+		<name>Memphis</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<lat>35.1087</lat>
+		<lng>-89.9663</lng>
+		<population>1037998</population>
+		<density>824.8</density>
+		<timezone>America/Chicago</timezone>
+		<zips>38120 38127 38126 38107 38106 38105 38104 38103 38109 38108 38152 38132 38141 38112 38114 38111 38113 38115 38116 38117 38118 38119 38018 38016 38133 38131 38134 38128 38122 38125 37501 37544 38088 38101 38124 38130 38136 38137 38145 38148 38150 38151 38157 38159 38161 38163 38166 38168 38173 38174 38175 38177 38181 38182 38184 38186 38187 38188 38190 38193 38194 38197</zips>
+	</city>
+	<city>
+		<id>1840030815</id>
+		<name>Louisville</name>
+		<state_abbrev>KY</state_abbrev>
+		<state>Kentucky</state>
+		<lat>38.1663</lat>
+		<lng>-85.6485</lng>
+		<population>963812</population>
+		<density>923.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>40245 40242 40241 40218 40219 40214 40216 40211 40213 40059 40291 40299 40220 40223 40222 40229 40228 40023 40272 40207 40209 40258 40118 40018 40027 40225 40261 40268 40269 40281</zips>
+	</city>
+	<city>
+		<id>1840000386</id>
+		<name>Buffalo</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>42.9018</lat>
+		<lng>-78.8487</lng>
+		<population>944589</population>
+		<density>2645.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>14208 14209 14202 14203 14201 14206 14207 14204 14220 14222 14211 14210 14213 14212 14215 14214 14216 14205 14233 14240 14263 14264 14267 14269 14270 14272 14273 14276 14280</zips>
+	</city>
+	<city>
+		<id>1840001839</id>
+		<name>New Orleans</name>
+		<state_abbrev>LA</state_abbrev>
+		<state>Louisiana</state>
+		<lat>30.0687</lat>
+		<lng>-89.9288</lng>
+		<population>932759</population>
+		<density>866.5</density>
+		<timezone>America/Chicago</timezone>
+		<zips>70139 70130 70131 70148 70114 70115 70116 70117 70112 70113 70118 70119 70129 70128 70125 70124 70127 70126 70122 70163 70142 70145 70146 70150 70151 70152 70153 70154 70156 70157 70158 70159 70160 70161 70162 70164 70165 70166 70167 70170 70172 70174 70175 70176 70177 70178 70179 70181 70182 70184 70185 70186 70187 70189 70190 70195</zips>
+	</city>
+	<city>
+		<id>1840020696</id>
+		<name>Fort Worth</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.7817</lat>
+		<lng>-97.3474</lng>
+		<population>924663</population>
+		<density>1021.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>76164 76040 76134 76135 76137 76131 76132 76133 76109 76108 76105 76104 76107 76106 76103 76102 76155 76053 76052 76123 76120 76244 76008 76179 76177 76036 76140 76262 76006 76118 76119 76116 76117 76114 76115 76112 76110 76111 76129 76127 76126 76101 76113 76121 76122 76124 76130 76147 76150 76161 76162 76163 76166 76190 76191 76193 76195 76196 76197 76198 76199</zips>
+	</city>
+	<city>
+		<id>1840004836</id>
+		<name>Bridgeport</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<lat>41.1918</lat>
+		<lng>-73.1954</lng>
+		<population>908251</population>
+		<density>3568.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>06605 06604 06607 06606 06608 06610 06601 06602</zips>
+	</city>
+	<city>
+		<id>1840022101</id>
+		<name>Tucson</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>32.1541</lat>
+		<lng>-110.8787</lng>
+		<population>878320</population>
+		<density>863.9</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85705 85707 85706 85709 85710 85756 85723 85726 85724 85701 85708 85719 85748 85745 85747 85716 85714 85715 85712 85713 85711 85734 85730 85721 85702 85703 85717 85725 85731 85732 85738 85751 85754 85775</zips>
+	</city>
+	<city>
+		<id>1840023252</id>
+		<name>El Paso</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>31.8476</lat>
+		<lng>-106.43</lng>
+		<population>865270</population>
+		<density>1011.4</density>
+		<timezone>America/Denver</timezone>
+		<zips>79901 79902 79903 79904 79905 79906 79907 79930 79932 79935 79934 79936 79915 79912 79911 79835 79922 79920 79927 79924 79925 79910 79913 79914 79917 79923 79926 79931 79937 79940 79941 79942 79943 79944 79945 79946 79947 79948 79949 79950 79951 79952 79953 79954 79955 79958 79960 79961 79968 79976 79978 79980 79995 79996 79997 79998 79999 88540 88541 88542 88543 88544 88545 88546 88547 88548 88549 88550 88553 88554 88555 88556 88557 88558 88559 88560 88561 88562 88563 88565 88566 88567 88568 88569 88570 88571 88572 88573 88574 88575 88576 88577 88578 88579 88580 88581 88582 88583 88584 88585 88586 88588 88590 88595</zips>
+	</city>
+	<city>
+		<id>1840009315</id>
+		<name>Omaha</name>
+		<state_abbrev>NE</state_abbrev>
+		<state>Nebraska</state>
+		<lat>41.2627</lat>
+		<lng>-96.0529</lng>
+		<population>821345</population>
+		<density>1323.9</density>
+		<timezone>America/Chicago</timezone>
+		<zips>68112 68114 68117 68116 68118 68182 68183 68105 68108 68178 68110 68122 68127 68124 68111 68022 68137 68135 68132 68144 68134 68131 68130 68102 68106 68107 68104 68164 68152 68154 68101 68103 68109 68119 68139 68145 68172 68175 68176 68179 68180 68197 68198</zips>
+	</city>
+	<city>
+		<id>1840021024</id>
+		<name>McAllen</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>26.2252</lat>
+		<lng>-98.2467</lng>
+		<population>797341</population>
+		<density>884.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78573 78504 78503 78501 78557 78502 78505</zips>
+	</city>
+	<city>
+		<id>1840006507</id>
+		<name>Birmingham</name>
+		<state_abbrev>AL</state_abbrev>
+		<state>Alabama</state>
+		<lat>33.5279</lat>
+		<lng>-86.7971</lng>
+		<population>782111</population>
+		<density>526.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>35218 35214 35215 35217 35210 35211 35212 35213 35224 35221 35222 35203 35207 35206 35205 35204 35209 35208 35094 35254 35068 35061 35228 35234 35235 35233 35243 35242 35249 35201 35202 35220 35232 35237 35238 35246 35255 35259 35261 35270 35282 35283 35285 35287 35290 35291 35292 35294 35295 35298</zips>
+	</city>
+	<city>
+		<id>1840019176</id>
+		<name>Albuquerque</name>
+		<state_abbrev>NM</state_abbrev>
+		<state>New Mexico</state>
+		<lat>35.1054</lat>
+		<lng>-106.6465</lng>
+		<population>769986</population>
+		<density>1159.8</density>
+		<timezone>America/Denver</timezone>
+		<zips>87123 87112 87113 87110 87111 87114 87109 87108 87101 87102 87105 87104 87107 87106 87120 87119 87125 87131 87153 87154 87158 87181 87184 87187 87190 87191 87192 87194 87196 87197 87198 87199</zips>
+	</city>
+	<city>
+		<id>1840021672</id>
+		<name>Tulsa</name>
+		<state_abbrev>OK</state_abbrev>
+		<state>Oklahoma</state>
+		<lat>36.1283</lat>
+		<lng>-95.9042</lng>
+		<population>731743</population>
+		<density>804.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>74137 74134 74132 74133 74130 74136 74135 74146 74145 74127 74126 74112 74114 74115 74119 74015 74106 74129 74128 74120 74171 74110 74116 74117 74107 74105 74103 74104 74108 74101 74121 74141 74147 74148 74149 74150 74152 74153 74155 74156 74158 74159 74169 74170 74172 74182 74186 74187 74192 74193</zips>
+	</city>
+	<city>
+		<id>1840020319</id>
+		<name>Fresno</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>36.783</lat>
+		<lng>-119.7939</lng>
+		<population>725276</population>
+		<density>1805.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93740 93741 93730 93650 93702 93703 93701 93706 93704 93705 93722 93728 93720 93721 93726 93727 93711 93710 93707 93708 93709 93714 93715 93716 93717 93718 93724 93729 93744 93745 93750 93755 93760 93761 93764 93765 93771 93772 93774 93775 93776 93777 93778 93779 93790 93791 93792 93793 93794 93844</zips>
+	</city>
+	<city>
+		<id>1840015163</id>
+		<name>Charleston</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>32.8168</lat>
+		<lng>-79.9687</lng>
+		<population>706884</population>
+		<density>503.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>29414 29424 29425 29455 29405 29407 29401 29403 29409 29492 29412 29402 29413 29417 29422 29457</zips>
+	</city>
+	<city>
+		<id>1840000373</id>
+		<name>Rochester</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>43.168</lat>
+		<lng>-77.6162</lng>
+		<population>699921</population>
+		<density>2278</density>
+		<timezone>America/New_York</timezone>
+		<zips>14608 14609 14606 14607 14604 14605 14627 14620 14621 14619 14615 14614 14617 14611 14610 14613 14612 14642 14602 14603 14638 14639 14643 14644 14646 14647 14649 14650 14651 14653</zips>
+	</city>
+	<city>
+		<id>1840034249</id>
+		<name>Dayton</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>39.7805</lat>
+		<lng>-84.2003</lng>
+		<population>668825</population>
+		<density>950</density>
+		<timezone>America/New_York</timezone>
+		<zips>45432 45469 45402 45403 45406 45404 45405 45409 45428 45420 45423 45424 45410 45414 45417 45419 45377 45401 45412 45422 45481 45490</zips>
+	</city>
+	<city>
+		<id>1840015130</id>
+		<name>Cape Coral</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>26.6443</lat>
+		<lng>-81.9957</lng>
+		<population>654405</population>
+		<density>724.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>33990 33993 33914 33991 33909 33904 33910 33915</zips>
+	</city>
+	<city>
+		<id>1840020580</id>
+		<name>Mission Viejo</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.6096</lat>
+		<lng>-117.6551</lng>
+		<population>642211</population>
+		<density>2038.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92692 92691 92690</zips>
+	</city>
+	<city>
+		<id>1840018825</id>
+		<name>Colorado Springs</name>
+		<state_abbrev>CO</state_abbrev>
+		<state>Colorado</state>
+		<lat>38.8674</lat>
+		<lng>-104.7605</lng>
+		<population>638194</population>
+		<density>917.5</density>
+		<timezone>America/Denver</timezone>
+		<zips>80951 80829 80909 80904 80905 80906 80907 80903 80939 80938 80910 80917 80916 80915 80914 80919 80918 80927 80924 80925 80922 80923 80920 80921 80929 80901 80932 80934 80935 80936 80937 80941 80942 80946 80947 80949 80950 80960 80962 80977 80995 80997</zips>
+	</city>
+	<city>
+		<id>1840001044</id>
+		<name>Allentown</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>40.5961</lat>
+		<lng>-75.4756</lng>
+		<population>627863</population>
+		<density>2754.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>18104 18101 18103 18102 18109 18001 18105</zips>
+	</city>
+	<city>
+		<id>1840020135</id>
+		<name>Ogden</name>
+		<state_abbrev>UT</state_abbrev>
+		<state>Utah</state>
+		<lat>41.2279</lat>
+		<lng>-111.9682</lng>
+		<population>622918</population>
+		<density>1215.9</density>
+		<timezone>America/Denver</timezone>
+		<zips>84404 84401 84403 84408 84244 84407 84409 84415</zips>
+	</city>
+	<city>
+		<id>1840020174</id>
+		<name>Provo</name>
+		<state_abbrev>UT</state_abbrev>
+		<state>Utah</state>
+		<lat>40.2457</lat>
+		<lng>-111.6457</lng>
+		<population>619218</population>
+		<density>1059.2</density>
+		<timezone>America/Denver</timezone>
+		<zips>84606 84604 84602 84601 84603 84605</zips>
+	</city>
+	<city>
+		<id>1840014486</id>
+		<name>Knoxville</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<lat>35.9692</lat>
+		<lng>-83.9496</lng>
+		<population>615829</population>
+		<density>750.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>37909 37902 37924 37920 37921 37922 37923 37929 37919 37918 37915 37914 37917 37916 37912 37901 37927 37928 37939 37950 37995 37996 37997</zips>
+	</city>
+	<city>
+		<id>1840002928</id>
+		<name>Grand Rapids</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>42.9619</lat>
+		<lng>-85.6562</lng>
+		<population>609023</population>
+		<density>1708.2</density>
+		<timezone>America/Detroit</timezone>
+		<zips>49546 49506 49505 49503 49507 49504 49508 49501 49502 49514 49515 49523 49555 49588 49599</zips>
+	</city>
+	<city>
+		<id>1840019148</id>
+		<name>Bakersfield</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>35.3529</lat>
+		<lng>-119.0359</lng>
+		<population>571992</population>
+		<density>1038.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93306 93307 93304 93305 93301 93309 93314 93311 93313 93312 93302 93383 93384 93385 93387 93389 93390</zips>
+	</city>
+	<city>
+		<id>1840004850</id>
+		<name>New Haven</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<lat>41.3113</lat>
+		<lng>-72.9246</lng>
+		<population>565572</population>
+		<density>2804.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>06519 06511 06510 06513 06512 06515 06501 06502 06503 06505 06506 06507 06508 06509 06520 06521 06530 06531 06532 06533 06534 06535 06536 06540</zips>
+	</city>
+	<city>
+		<id>1840000791</id>
+		<name>Akron</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>41.0798</lat>
+		<lng>-81.5219</lng>
+		<population>541945</population>
+		<density>1186.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>44306 44307 44304 44305 44302 44303 44301 44308 44325 44320 44311 44310 44313 44312 44319 44314 44309 44315 44316 44317 44326 44328 44334 44396 44398</zips>
+	</city>
+	<city>
+		<id>1840015094</id>
+		<name>Palm Bay</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>27.9631</lat>
+		<lng>-80.6593</lng>
+		<population>534348</population>
+		<density>542.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>32909 32908 32905 32907 32976 32902 32906 32910 32911</zips>
+	</city>
+	<city>
+		<id>1840018905</id>
+		<name>Concord</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.9722</lat>
+		<lng>-122.0016</lng>
+		<population>531175</population>
+		<density>1579.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94518 94519 94565 94521 94520 94522 94524 94527</zips>
+	</city>
+	<city>
+		<id>1840001686</id>
+		<name>Wichita</name>
+		<state_abbrev>KS</state_abbrev>
+		<state>Kansas</state>
+		<lat>37.6895</lat>
+		<lng>-97.3443</lng>
+		<population>509003</population>
+		<density>938.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>67230 67235 67260 67217 67216 67215 67214 67213 67212 67211 67210 67219 67218 67223 67220 67226 67202 67203 67204 67205 67206 67207 67208 67209 67201 67275 67276 67277 67278</zips>
+	</city>
+	<city>
+		<id>1840020566</id>
+		<name>Mesa</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.4015</lat>
+		<lng>-111.7178</lng>
+		<population>503390</population>
+		<density>1379.8</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85208 85209 85201 85202 85203 85204 85205 85206 85207 85215 85213 85212 85210 85211 85214 85216 85274 85275 85277</zips>
+	</city>
+	<city>
+		<id>1840034032</id>
+		<name>Staten Island</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.5834</lat>
+		<lng>-74.1496</lng>
+		<population>495747</population>
+		<density>3286.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>10303 10302 10301 10307 10306 10305 10310 10311 10312 10314 10309 10308 10304 10313</zips>
+	</city>
+	<city>
+		<id>1840000572</id>
+		<name>Toledo</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>41.6638</lat>
+		<lng>-83.5827</lng>
+		<population>493302</population>
+		<density>1295</density>
+		<timezone>America/New_York</timezone>
+		<zips>43615 43614 43611 43613 43612 43607 43610 43606 43604 43605 43608 43609 43620 43623 43601 43603 43635 43652 43656 43657 43659 43660 43661 43666 43667 43681 43682 43697 43699</zips>
+	</city>
+	<city>
+		<id>1840000434</id>
+		<name>Worcester</name>
+		<state_abbrev>MA</state_abbrev>
+		<state>Massachusetts</state>
+		<lat>42.2705</lat>
+		<lng>-71.8079</lng>
+		<population>486486</population>
+		<density>2110.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>01608 01610 01609 01602 01603 01604 01605 01606 01607 01601 01613 01614 01615 01653 01655</zips>
+	</city>
+	<city>
+		<id>1840020490</id>
+		<name>Long Beach</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.7977</lat>
+		<lng>-118.167</lng>
+		<population>462293</population>
+		<density>3522.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>90822 90804 90805 90806 90807 90802 90803 90808 90831 90814 90813 90810 90815 90840 90801 90809 90832 90833 90842 90844 90846 90847 90848 90853</zips>
+	</city>
+	<city>
+		<id>1840015119</id>
+		<name>Port St. Lucie</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>27.2796</lat>
+		<lng>-80.3884</lng>
+		<population>462047</population>
+		<density>681.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>34986 34984 34983 34987 34952 34953 34985</zips>
+	</city>
+	<city>
+		<id>1840020121</id>
+		<name>Reno</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>39.5497</lat>
+		<lng>-119.8483</lng>
+		<population>457702</population>
+		<density>940.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89521 89523 89439 89503 89502 89501 89506 89509 89508 89557 89519 89512 89505 89507 89533 89555 89595 89599</zips>
+	</city>
+	<city>
+		<id>1840021093</id>
+		<name>Spokane</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>47.6671</lat>
+		<lng>-117.433</lng>
+		<population>456219</population>
+		<density>1279.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>99201 99203 99202 99205 99204 99207 99208 99258 99224 99223 99001 99212 99209 99210 99219 99220 99252 99256 99260</zips>
+	</city>
+	<city>
+		<id>1840014227</id>
+		<name>Bonita Springs</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>26.3558</lat>
+		<lng>-81.7859</lng>
+		<population>449527</population>
+		<density>542.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>33931 34135 34134</zips>
+	</city>
+	<city>
+		<id>1840019390</id>
+		<name>Denton</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>33.2175</lat>
+		<lng>-97.1418</lng>
+		<population>438492</population>
+		<density>567.5</density>
+		<timezone>America/Chicago</timezone>
+		<zips>76207 76205 76203 76201 76208 76209 76226 76210 76202 76204 76206</zips>
+	</city>
+	<city>
+		<id>1840020296</id>
+		<name>Oakland</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.7904</lat>
+		<lng>-122.2166</lng>
+		<population>437825</population>
+		<density>3020.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94621 94705 94611 94610 94613 94612 94619 94618 94606 94607 94602 94603 94601 94609 94720 94605 94608 94604 94614 94615 94617 94620 94623 94624 94649 94659 94660 94661 94666</zips>
+	</city>
+	<city>
+		<id>1840000466</id>
+		<name>Springfield</name>
+		<state_abbrev>MA</state_abbrev>
+		<state>Massachusetts</state>
+		<lat>42.1155</lat>
+		<lng>-72.5395</lng>
+		<population>437752</population>
+		<density>1881.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>01151 01144 01118 01119 01129 01128 01107 01105 01104 01103 01109 01108 01101 01102 01111 01115 01138 01139 01152 01199</zips>
+	</city>
+	<city>
+		<id>1840029462</id>
+		<name>Augusta</name>
+		<state_abbrev>GA</state_abbrev>
+		<state>Georgia</state>
+		<lat>33.3645</lat>
+		<lng>-82.0708</lng>
+		<population>437257</population>
+		<density>257.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>30912 30815 30812 30907 30906 30904 30905 30901 30909 30805 30903 30914 30916 30917 30919 30999</zips>
+	</city>
+	<city>
+		<id>1840015109</id>
+		<name>Kissimmee</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.3041</lat>
+		<lng>-81.4169</lng>
+		<population>431618</population>
+		<density>1409.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>34743 34746 34741 34744 34745</zips>
+	</city>
+	<city>
+		<id>1840015324</id>
+		<name>Winston-Salem</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>36.1029</lat>
+		<lng>-80.261</lng>
+		<population>427706</population>
+		<density>721.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>27110 27127 27040 27107 27106 27105 27104 27103 27101 27109 27102 27108 27111 27113 27114 27115 27116 27117 27120 27130 27150 27152 27155 27157 27198 27199</zips>
+	</city>
+	<city>
+		<id>1840021517</id>
+		<name>Stockton</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.9765</lat>
+		<lng>-121.3109</lng>
+		<population>413637</population>
+		<density>1980.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95219 95212 95210 95211 95209 95207 95203 95205 95204 95206 95202 95201 95267 95269 95296 95297</zips>
+	</city>
+	<city>
+		<id>1840000378</id>
+		<name>Syracuse</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>43.0407</lat>
+		<lng>-76.1437</lng>
+		<population>410732</population>
+		<density>2251.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>13210 13214 13290 13224 13207 13206 13205 13204 13203 13202 13208 13244 13201 13217 13218 13221 13235 13252 13261</zips>
+	</city>
+	<city>
+		<id>1840014569</id>
+		<name>Chattanooga</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<lat>35.066</lat>
+		<lng>-85.2481</lng>
+		<population>406849</population>
+		<density>491.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>37415 37416 37410 37411 37419 37409 37421 37408 37403 37402 37407 37405 37406 37404 37343 37450 37351 37401 37414 37424</zips>
+	</city>
+	<city>
+		<id>1840003718</id>
+		<name>Lancaster</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>40.042</lat>
+		<lng>-76.3012</lng>
+		<population>402476</population>
+		<density>3096.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>17603 17602 17601 17608 17622 17699</zips>
+	</city>
+	<city>
+		<id>1840013501</id>
+		<name>Greenville</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>34.8354</lat>
+		<lng>-82.3646</lng>
+		<population>401443</population>
+		<density>917.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>29614 29607 29605 29601 29609 29602 29603 29604 29612 29616</zips>
+	</city>
+	<city>
+		<id>1840013364</id>
+		<name>Durham</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.9792</lat>
+		<lng>-78.9022</lng>
+		<population>399616</population>
+		<density>950.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>27703 27705 27704 27707 27701 27708 27712 27713 27706 27710 27715 27717 27722</zips>
+	</city>
+	<city>
+		<id>1840015005</id>
+		<name>Pensacola</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>30.4413</lat>
+		<lng>-87.1911</lng>
+		<population>398813</population>
+		<density>917</density>
+		<timezone>America/Chicago</timezone>
+		<zips>32503 32504 32501 32502 32513 32522 32524 32591</zips>
+	</city>
+	<city>
+		<id>1840013368</id>
+		<name>Fayetteville</name>
+		<state_abbrev>AR</state_abbrev>
+		<state>Arkansas</state>
+		<lat>36.0714</lat>
+		<lng>-94.1661</lng>
+		<population>394650</population>
+		<density>672.8</density>
+		<timezone>America/Chicago</timezone>
+		<zips>72704 72703 72701 72702</zips>
+	</city>
+	<city>
+		<id>1840019422</id>
+		<name>Arlington</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.6998</lat>
+		<lng>-97.125</lng>
+		<population>393469</population>
+		<density>1585.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>76011 76005 76001 76002 76006 76018 76013 76012 76010 76017 76016 76015 76014 76003 76004 76007 76019 76094 76096</zips>
+	</city>
+	<city>
+		<id>1840018794</id>
+		<name>Aurora</name>
+		<state_abbrev>CO</state_abbrev>
+		<state>Colorado</state>
+		<lat>39.7083</lat>
+		<lng>-104.7237</lng>
+		<population>387349</population>
+		<density>920.3</density>
+		<timezone>America/Denver</timezone>
+		<zips>80247 80137 80045 80018 80019 80016 80014 80015 80012 80013 80010 80017 80011 80040 80041 80042 80044 80046 80047</zips>
+	</city>
+	<city>
+		<id>1840020474</id>
+		<name>Oxnard</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1964</lat>
+		<lng>-119.1815</lng>
+		<population>369962</population>
+		<density>2944.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93035 93036 93030 93033 93031 93032 93034</zips>
+	</city>
+	<city>
+		<id>1840019304</id>
+		<name>Indio</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.7346</lat>
+		<lng>-116.2346</lng>
+		<population>369654</population>
+		<density>1042.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92241 92201 92203</zips>
+	</city>
+	<city>
+		<id>1840003389</id>
+		<name>Scranton</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>41.4044</lat>
+		<lng>-75.6649</lng>
+		<population>366334</population>
+		<density>1161.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>18504 18509 18508 18510 18503 18505 18507 18515 18540</zips>
+	</city>
+	<city>
+		<id>1840021731</id>
+		<name>Victorville</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.5277</lat>
+		<lng>-117.3536</lng>
+		<population>364015</population>
+		<density>704.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92394 92395 92392 92393</zips>
+	</city>
+	<city>
+		<id>1840020287</id>
+		<name>Modesto</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.6375</lat>
+		<lng>-121.0028</lng>
+		<population>354183</population>
+		<density>1955.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95358 95356 95355 95354 95351 95350 95352 95353 95397</zips>
+	</city>
+	<city>
+		<id>1840005061</id>
+		<name>Huntsville</name>
+		<state_abbrev>AL</state_abbrev>
+		<state>Alabama</state>
+		<lat>34.6981</lat>
+		<lng>-86.6412</lng>
+		<population>349482</population>
+		<density>376.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>35801 35803 35802 35805 35806 35741 35824 35763 35757 35756 35810 35811 35816 35896 35742 35762 35804 35807 35809 35814 35815 35893 35894 35895 35897 35899</zips>
+	</city>
+	<city>
+		<id>1840013356</id>
+		<name>Greensboro</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>36.0956</lat>
+		<lng>-79.8271</lng>
+		<population>347130</population>
+		<density>873.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>27411 27410 27412 27301 27455 27408 27409 27403 27401 27406 27407 27405 27214 27402 27404 27413 27417 27420 27427 27429 27435 27438 27495 27497 27498 27499</zips>
+	</city>
+	<city>
+		<id>1840019322</id>
+		<name>Anaheim</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.839</lat>
+		<lng>-117.8574</lng>
+		<population>347111</population>
+		<density>2665.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92808 92806 92807 92804 92805 92802 92801 92803 92809 92812 92815 92816 92817 92825 92850 92899</zips>
+	</city>
+	<city>
+		<id>1840019718</id>
+		<name>Corpus Christi</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>27.7254</lat>
+		<lng>-97.3767</lng>
+		<population>337230</population>
+		<density>756.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78373 78408 78409 78406 78407 78404 78405 78402 78401 78419 78418 78415 78414 78417 78416 78411 78410 78413 78412 78403 78426 78427 78460 78463 78465 78466 78467 78468 78469 78480</zips>
+	</city>
+	<city>
+		<id>1840008261</id>
+		<name>Fort Wayne</name>
+		<state_abbrev>IN</state_abbrev>
+		<state>Indiana</state>
+		<lat>41.0888</lat>
+		<lng>-85.1436</lng>
+		<population>337163</population>
+		<density>923</density>
+		<timezone>America/Indiana/Indianapolis</timezone>
+		<zips>46835 46818 46814 46815 46816 46825 46845 46803 46802 46807 46806 46805 46804 46809 46808 46801 46850 46851 46852 46853 46854 46855 46856 46857 46858 46859 46860 46861 46862 46863 46864 46865 46866 46867 46868 46869 46885 46895 46897</zips>
+	</city>
+	<city>
+		<id>1840020151</id>
+		<name>Fort Collins</name>
+		<state_abbrev>CO</state_abbrev>
+		<state>Colorado</state>
+		<lat>40.5477</lat>
+		<lng>-105.0656</lng>
+		<population>335398</population>
+		<density>1142.2</density>
+		<timezone>America/Denver</timezone>
+		<zips>80528 80521 80526 80524 80525 80523 80527 80553</zips>
+	</city>
+	<city>
+		<id>1840014717</id>
+		<name>Myrtle Beach</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>33.7094</lat>
+		<lng>-78.8844</lng>
+		<population>332181</population>
+		<density>594.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>29572 29577 29578</zips>
+	</city>
+	<city>
+		<id>1840013490</id>
+		<name>Fayetteville</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.085</lat>
+		<lng>-78.9772</lng>
+		<population>328804</population>
+		<density>543.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>28390 28304 28306 28307 28301 28303 28308 28305 28311 28310 28314 28302 28309</zips>
+	</city>
+	<city>
+		<id>1840018903</id>
+		<name>Antioch</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.9787</lat>
+		<lng>-121.796</lng>
+		<population>327216</population>
+		<density>1522.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94531 94509</zips>
+	</city>
+	<city>
+		<id>1840015211</id>
+		<name>Lexington</name>
+		<state_abbrev>KY</state_abbrev>
+		<state>Kentucky</state>
+		<lat>38.0423</lat>
+		<lng>-84.4587</lng>
+		<population>321276</population>
+		<density>437</density>
+		<timezone>America/New_York</timezone>
+		<zips>40526 40509 40504 40502 40503 40508 40505 40507 40517 40536 40513 40511 40510 40516 40515 40514 40506 40512 40522 40523 40524 40533 40544 40546 40550 40555 40574 40575 40576 40577 40578 40579 40580 40581 40582 40583 40588 40591 40598</zips>
+	</city>
+	<city>
+		<id>1840006009</id>
+		<name>Mobile</name>
+		<state_abbrev>AL</state_abbrev>
+		<state>Alabama</state>
+		<lat>30.6782</lat>
+		<lng>-88.1162</lng>
+		<population>320855</population>
+		<density>515.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>36652 36606 36607 36604 36605 36602 36603 36608 36609 36688 36582 36615 36617 36611 36610 36619 36618 36695 36693 36601 36616 36628 36633 36640 36641 36644 36660 36670 36675 36689 36691</zips>
+	</city>
+	<city>
+		<id>1840003563</id>
+		<name>Youngstown</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>41.0993</lat>
+		<lng>-80.6463</lng>
+		<population>319065</population>
+		<density>683.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>44502 44503 44504 44505 44506 44507 44509 44511 44510 44555 44501</zips>
+	</city>
+	<city>
+		<id>1840020361</id>
+		<name>Henderson</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.0133</lat>
+		<lng>-115.0381</lng>
+		<population>318063</population>
+		<density>1153.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89044 89052 89054 89002 89074 89015 89014 89011 89012 89009 89077</zips>
+	</city>
+	<city>
+		<id>1840015830</id>
+		<name>Savannah</name>
+		<state_abbrev>GA</state_abbrev>
+		<state>Georgia</state>
+		<lat>32.0286</lat>
+		<lng>-81.1821</lng>
+		<population>316050</population>
+		<density>524.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>31302 31409 31408 31401 31405 31404 31407 31406 31421 31419 31415 31403 31412 31416 31418 31420</zips>
+	</city>
+	<city>
+		<id>1840000500</id>
+		<name>Poughkeepsie</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>41.695</lat>
+		<lng>-73.9211</lng>
+		<population>314159</population>
+		<density>2380.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>12601 12603 12602</zips>
+	</city>
+	<city>
+		<id>1840021964</id>
+		<name>Santa Ana</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.7367</lat>
+		<lng>-117.8819</lng>
+		<population>311379</population>
+		<density>4391.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92707 92701 92703 92705 92704 92706 92702 92712 92735 92799</zips>
+	</city>
+	<city>
+		<id>1840003172</id>
+		<name>Ann Arbor</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>42.2759</lat>
+		<lng>-83.731</lng>
+		<population>308983</population>
+		<density>1671.9</density>
+		<timezone>America/Detroit</timezone>
+		<zips>48103 48104 48105 48108 48109 48113</zips>
+	</city>
+	<city>
+		<id>1840002791</id>
+		<name>Newark</name>
+		<state_abbrev>NJ</state_abbrev>
+		<state>New Jersey</state>
+		<lat>40.7245</lat>
+		<lng>-74.1725</lng>
+		<population>307355</population>
+		<density>4915.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>07103 07102 07105 07104 07107 07106 07108 07112 07114 07101 07175 07188 07191 07192 07193 07195 07198 07199</zips>
+	</city>
+	<city>
+		<id>1840019325</id>
+		<name>Irvine</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.6772</lat>
+		<lng>-117.7738</lng>
+		<population>304527</population>
+		<density>1792.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92617 92614 92612 92618 92697 92620 92602 92603 92604 92606 92616 92619 92650 92698</zips>
+	</city>
+	<city>
+		<id>1840021488</id>
+		<name>Santa Rosa</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>38.4458</lat>
+		<lng>-122.7067</lng>
+		<population>296180</population>
+		<density>1618.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95409 95403 95401 95407 95405 95404 95406</zips>
+	</city>
+	<city>
+		<id>1840000963</id>
+		<name>Canton</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>40.8078</lat>
+		<lng>-81.3676</lng>
+		<population>294047</population>
+		<density>1034.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>44714 44710 44702 44703 44706 44707 44704 44705 44708 44709 44711 44750 44799</zips>
+	</city>
+	<city>
+		<id>1840013411</id>
+		<name>Asheville</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.5707</lat>
+		<lng>-82.5537</lng>
+		<population>294013</population>
+		<density>795.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>28806 28805 28804 28803 28801 28776 28810 28814 28815 28816</zips>
+	</city>
+	<city>
+		<id>1840002949</id>
+		<name>Flint</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>43.0236</lat>
+		<lng>-83.6921</lng>
+		<population>293893</population>
+		<density>945.2</density>
+		<timezone>America/Detroit</timezone>
+		<zips>48502 48504 48505 48506 48507 48503 48550 48551 48552 48553 48556 48557</zips>
+	</city>
+	<city>
+		<id>1840015970</id>
+		<name>Winter Haven</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.0118</lat>
+		<lng>-81.7014</lng>
+		<population>293093</population>
+		<density>596.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>33881 33880 33884 33883 33885 33888</zips>
+	</city>
+	<city>
+		<id>1840023385</id>
+		<name>Anchorage</name>
+		<state_abbrev>AK</state_abbrev>
+		<state>Alaska</state>
+		<lat>61.1508</lat>
+		<lng>-149.1091</lng>
+		<population>290674</population>
+		<density>65.8</density>
+		<timezone>America/Anchorage</timezone>
+		<zips>99518 99515 99517 99516 99513 99540 99530 99567 99587 99508 99506 99507 99504 99505 99502 99503 99501 99577 99509 99510 99511 99514 99520 99521 99522 99523 99524 99529 99599</zips>
+	</city>
+	<city>
+		<id>1840014559</id>
+		<name>Concord</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.3933</lat>
+		<lng>-80.6369</lng>
+		<population>288783</population>
+		<density>635.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>28025 28027 28026</zips>
+	</city>
+	<city>
+		<id>1840003600</id>
+		<name>Jersey City</name>
+		<state_abbrev>NJ</state_abbrev>
+		<state>New Jersey</state>
+		<lat>40.7184</lat>
+		<lng>-74.0686</lng>
+		<population>287899</population>
+		<density>7537.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>07310 07311 07302 07307 07306 07305 07304 07097 07303 07308 07395 07399</zips>
+	</city>
+	<city>
+		<id>1840009904</id>
+		<name>Springfield</name>
+		<state_abbrev>MO</state_abbrev>
+		<state>Missouri</state>
+		<lat>37.1943</lat>
+		<lng>-93.2916</lng>
+		<population>286280</population>
+		<density>784.5</density>
+		<timezone>America/Chicago</timezone>
+		<zips>65810 65897 65619 65801 65802 65803 65804 65806 65807 65809 65805 65808 65814 65817 65890 65898 65899</zips>
+	</city>
+	<city>
+		<id>1840020662</id>
+		<name>Plano</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>33.0502</lat>
+		<lng>-96.7486</lng>
+		<population>284948</population>
+		<density>1534.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75093 75023 75025 75024 75074 75075 75026 75086</zips>
+	</city>
+	<city>
+		<id>1840015768</id>
+		<name>Shreveport</name>
+		<state_abbrev>LA</state_abbrev>
+		<state>Louisiana</state>
+		<lat>32.4653</lat>
+		<lng>-93.7955</lng>
+		<population>283536</population>
+		<density>664.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>71129 71101 71103 71104 71105 71106 71107 71108 71109 71119 71118 71102 71120 71130 71133 71134 71135 71136 71138 71148 71149 71151 71152 71153 71154 71156 71161 71162 71163 71164 71165 71166</zips>
+	</city>
+	<city>
+		<id>1840007081</id>
+		<name>Davenport</name>
+		<state_abbrev>IA</state_abbrev>
+		<state>Iowa</state>
+		<lat>41.5565</lat>
+		<lng>-90.6053</lng>
+		<population>281333</population>
+		<density>614</density>
+		<timezone>America/Chicago</timezone>
+		<zips>52802 52803 52801 52806 52807 52804 52805 52808 52809</zips>
+	</city>
+	<city>
+		<id>1840020604</id>
+		<name>Lubbock</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>33.5657</lat>
+		<lng>-101.8879</lng>
+		<population>280890</population>
+		<density>722.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>79406 79423 79424 79416 79412 79410 79407 79414 79411 79404 79401 79403 79402 79415 79413 79408 79409 79430 79452 79453 79457 79464 79490 79491 79493 79499</zips>
+	</city>
+	<city>
+		<id>1840015108</id>
+		<name>Lakeland</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.0557</lat>
+		<lng>-81.9545</lng>
+		<population>280346</population>
+		<density>663.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>33813 33803 33801 33805 33815 33811 33802 33804 33806</zips>
+	</city>
+	<city>
+		<id>1840009241</id>
+		<name>South Bend</name>
+		<state_abbrev>IN</state_abbrev>
+		<state>Indiana</state>
+		<lat>41.6767</lat>
+		<lng>-86.2696</lng>
+		<population>278061</population>
+		<density>948.2</density>
+		<timezone>America/Indiana/Indianapolis</timezone>
+		<zips>46616 46635 46628 46601 46613 46617 46619 46614 46615 46626 46634 46660 46680 46699</zips>
+	</city>
+	<city>
+		<id>1840019350</id>
+		<name>Chula Vista</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>32.6281</lat>
+		<lng>-117.0144</lng>
+		<population>276103</population>
+		<density>2147.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91911 91910 91913 91915 91914 91902 91908 91909 91912 91921</zips>
+	</city>
+	<city>
+		<id>1840019309</id>
+		<name>Chandler</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.2825</lat>
+		<lng>-111.8514</lng>
+		<population>275618</population>
+		<density>1624.6</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85248 85249 85226 85224 85225 85286 85246</zips>
+	</city>
+	<city>
+		<id>1840009132</id>
+		<name>Rockford</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<lat>42.2596</lat>
+		<lng>-89.064</lng>
+		<population>273237</population>
+		<density>881.3</density>
+		<timezone>America/Chicago</timezone>
+		<zips>61101 61114 61109 61108 61104 61107 61103 61102 61105 61106 61110 61125 61126</zips>
+	</city>
+	<city>
+		<id>1840001185</id>
+		<name>Reading</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>40.34</lat>
+		<lng>-75.9267</lng>
+		<population>272712</population>
+		<density>3710.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>19601 19604 19602 19611 19603 19612</zips>
+	</city>
+	<city>
+		<id>1840020007</id>
+		<name>Eugene</name>
+		<state_abbrev>OR</state_abbrev>
+		<state>Oregon</state>
+		<lat>44.0564</lat>
+		<lng>-123.1174</lng>
+		<population>270990</population>
+		<density>1543.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>97405 97404 97401 97403 97402 97440</zips>
+	</city>
+	<city>
+		<id>1840015576</id>
+		<name>Wilmington</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>34.2099</lat>
+		<lng>-77.8866</lng>
+		<population>268625</population>
+		<density>878.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>28409 28401 28403 28405 28412 28402 28406 28408</zips>
+	</city>
+	<city>
+		<id>1840021864</id>
+		<name>Santa Clarita</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.4175</lat>
+		<lng>-118.4964</lng>
+		<population>268273</population>
+		<density>1232.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91351 91321 91350 91355 91354 91387 91322 91382 91385 91386</zips>
+	</city>
+	<city>
+		<id>1840021947</id>
+		<name>Gilbert</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.31</lat>
+		<lng>-111.7463</lng>
+		<population>267267</population>
+		<density>1503.9</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85233 85234 85236 85297 85296 85295 85298 85244 85299</zips>
+	</city>
+	<city>
+		<id>1840020854</id>
+		<name>Killeen</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>31.0753</lat>
+		<lng>-97.7297</lng>
+		<population>265921</population>
+		<density>1086.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>76541 76543 76542 76549 76540 76547</zips>
+	</city>
+	<city>
+		<id>1840011171</id>
+		<name>Round Lake Beach</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<lat>42.3791</lat>
+		<lng>-88.0811</lng>
+		<population>264451</population>
+		<density>2084.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>60073</zips>
+	</city>
+	<city>
+		<id>1840014887</id>
+		<name>Columbus</name>
+		<state_abbrev>GA</state_abbrev>
+		<state>Georgia</state>
+		<lat>32.51</lat>
+		<lng>-84.8771</lng>
+		<population>264282</population>
+		<density>364.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>31820 31829 31909 31904 31905 31906 31907 31901 31903 31808 31902 31908 31914 31917 31993 31995 31997 31998 31999</zips>
+	</city>
+	<city>
+		<id>1840020363</id>
+		<name>North Las Vegas</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.2883</lat>
+		<lng>-115.0888</lng>
+		<population>264022</population>
+		<density>996.2</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89032 89031 89030 89086 89084 89085 89081 89115 89033 89087</zips>
+	</city>
+	<city>
+		<id>1840018481</id>
+		<name>Kennewick</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>46.1978</lat>
+		<lng>-119.1732</lng>
+		<population>259995</population>
+		<density>1138.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>99337 99336 99338</zips>
+	</city>
+	<city>
+		<id>1840015977</id>
+		<name>St. Petersburg</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>27.7931</lat>
+		<lng>-82.6652</lng>
+		<population>259343</population>
+		<density>1620.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>33707 33702 33762 33713 33712 33711 33710 33716 33715 33714 33705 33703 33704 33701 33729 33731 33732 33733 33734 33742 33743 33747</zips>
+	</city>
+	<city>
+		<id>1840021002</id>
+		<name>Laredo</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>27.5625</lat>
+		<lng>-99.4874</lng>
+		<population>255293</population>
+		<density>922.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78046 78045 78043 78040 78041 78042</zips>
+	</city>
+	<city>
+		<id>1840019438</id>
+		<name>Irving</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.8583</lat>
+		<lng>-96.9702</lng>
+		<population>254962</population>
+		<density>1469.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75063 75060 75038 75039 75062 75061 75014 75015 75016 75017 75059 75326 75368</zips>
+	</city>
+	<city>
+		<id>1840009373</id>
+		<name>Peoria</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<lat>40.752</lat>
+		<lng>-89.6154</lng>
+		<population>253467</population>
+		<density>908.7</density>
+		<timezone>America/Chicago</timezone>
+		<zips>61625 61615 61614 61605 61603 61604 61602 61606 61601 61613 61629 61630 61634 61636 61637 61638 61639 61643 61651 61652 61653 61654 61655 61656</zips>
+	</city>
+	<city>
+		<id>1840003874</id>
+		<name>Chesapeake</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>36.6778</lat>
+		<lng>-76.3023</lng>
+		<population>249377</population>
+		<density>284.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>23325 23324 23323 23322 23321 23320 23326 23327 23328</zips>
+	</city>
+	<city>
+		<id>1840020563</id>
+		<name>Glendale</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.5791</lat>
+		<lng>-112.2311</lng>
+		<population>248083</population>
+		<density>1451.1</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85301 85303 85302 85306 85309 85308 85355 85340 85305 85304 85307 85310 85311 85312 85318</zips>
+	</city>
+	<city>
+		<id>1840001472</id>
+		<name>York</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>39.9651</lat>
+		<lng>-76.7315</lng>
+		<population>247176</population>
+		<density>3267</density>
+		<timezone>America/New_York</timezone>
+		<zips>17404 17401 17403 17405</zips>
+	</city>
+	<city>
+		<id>1840002984</id>
+		<name>Nashua</name>
+		<state_abbrev>NH</state_abbrev>
+		<state>New Hampshire</state>
+		<lat>42.7491</lat>
+		<lng>-71.491</lng>
+		<population>245209</population>
+		<density>1138.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>03062 03063 03060 03064 03061</zips>
+	</city>
+	<city>
+		<id>1840020707</id>
+		<name>Garland</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.91</lat>
+		<lng>-96.6304</lng>
+		<population>244026</population>
+		<density>1649.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75043 75044 75041 75040 75042 75046 75047 75049</zips>
+	</city>
+	<city>
+		<id>1840021940</id>
+		<name>Scottsdale</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.6872</lat>
+		<lng>-111.8651</lng>
+		<population>240537</population>
+		<density>504.7</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85259 85258 85251 85250 85257 85255 85254 85266 85262 85260 85252 85261 85267 85271</zips>
+	</city>
+	<city>
+		<id>1840015044</id>
+		<name>Lafayette</name>
+		<state_abbrev>LA</state_abbrev>
+		<state>Louisiana</state>
+		<lat>30.2082</lat>
+		<lng>-92.0325</lng>
+		<population>237565</population>
+		<density>839.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>70508 70507 70506 70503 70501 70502 70504 70505 70509 70593 70596 70598</zips>
+	</city>
+	<city>
+		<id>1840003869</id>
+		<name>Norfolk</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>36.8945</lat>
+		<lng>-76.259</lng>
+		<population>236973</population>
+		<density>1717.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>23509 23508 23507 23504 23503 23502 23505 23518 23510 23511 23513 23517 23551 23523 23501 23506 23514 23515 23519 23529 23541</zips>
+	</city>
+	<city>
+		<id>1840006112</id>
+		<name>Arlington</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>38.8786</lat>
+		<lng>-77.1011</lng>
+		<population>235845</population>
+		<density>3502.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>22209 22203 22202 22201 22207 22206 22205 22204 22214 22211 22213 22210 22212 22215 22216 22217 22219 22225 22226 22227 22230 22240 22241 22242 22243 22244 22245 22246 22350</zips>
+	</city>
+	<city>
+		<id>1840002400</id>
+		<name>Appleton</name>
+		<state_abbrev>WI</state_abbrev>
+		<state>Wisconsin</state>
+		<lat>44.278</lat>
+		<lng>-88.3892</lng>
+		<population>233947</population>
+		<density>1145.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>54914 54915 54913 54911 54912 54919</zips>
+	</city>
+	<city>
+		<id>1630035605</id>
+		<name>Aguadilla</name>
+		<state_abbrev>PR</state_abbrev>
+		<state>Puerto Rico</state>
+		<lat>18.4382</lat>
+		<lng>-67.1537</lng>
+		<population>228854</population>
+		<density>1751.5</density>
+		<timezone>America/Puerto_Rico</timezone>
+		<zips>00603 00605</zips>
+	</city>
+	<city>
+		<id>1840014618</id>
+		<name>Rock Hill</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>34.9415</lat>
+		<lng>-81.0241</lng>
+		<population>228811</population>
+		<density>655.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>29732 29733 29730 29731</zips>
+	</city>
+	<city>
+		<id>1840020292</id>
+		<name>Fremont</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.5265</lat>
+		<lng>-121.9843</lng>
+		<population>228795</population>
+		<density>1131</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94560 94536 94538 94539 94555 94537</zips>
+	</city>
+	<city>
+		<id>1840000177</id>
+		<name>Fargo</name>
+		<state_abbrev>ND</state_abbrev>
+		<state>North Dakota</state>
+		<lat>46.8651</lat>
+		<lng>-96.8292</lng>
+		<population>228364</population>
+		<density>968.3</density>
+		<timezone>America/Chicago</timezone>
+		<zips>58102 58104 58103 58105 58106 58107 58108 58109 58121 58122 58124 58125 58126</zips>
+	</city>
+	<city>
+		<id>1840013947</id>
+		<name>Gulfport</name>
+		<state_abbrev>MS</state_abbrev>
+		<state>Mississippi</state>
+		<lat>30.4274</lat>
+		<lng>-89.0704</lng>
+		<population>228022</population>
+		<density>503.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>39501 39503 39507 39502 39505 39506</zips>
+	</city>
+	<city>
+		<id>1840018410</id>
+		<name>Bremerton</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>47.5436</lat>
+		<lng>-122.7121</lng>
+		<population>226805</population>
+		<density>597.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98312 98314 98310 98337</zips>
+	</city>
+	<city>
+		<id>1840002344</id>
+		<name>Green Bay</name>
+		<state_abbrev>WI</state_abbrev>
+		<state>Wisconsin</state>
+		<lat>44.5148</lat>
+		<lng>-87.9895</lng>
+		<population>225633</population>
+		<density>907.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>54304 54303 54302 54301 54311 54305 54306 54308</zips>
+	</city>
+	<city>
+		<id>1840033827</id>
+		<name>Enterprise</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.0091</lat>
+		<lng>-115.2278</lng>
+		<population>225461</population>
+		<density>1319</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89178 89183 89139 89141 89148 89113 89118 89119 89123</zips>
+	</city>
+	<city>
+		<id>1840015157</id>
+		<name>Hialeah</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>25.8696</lat>
+		<lng>-80.3045</lng>
+		<population>222996</population>
+		<density>3989.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>33014 33016 33010 33012 33013 33018</zips>
+	</city>
+	<city>
+		<id>1840015072</id>
+		<name>Deltona</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.905</lat>
+		<lng>-81.2137</lng>
+		<population>221137</population>
+		<density>976.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>32725 32738 32739</zips>
+	</city>
+	<city>
+		<id>1840021728</id>
+		<name>San Bernardino</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1416</lat>
+		<lng>-117.2943</lng>
+		<population>221041</population>
+		<density>1373.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92404 92369 92401 92407 92405 92408 92411 92410 92415 92346 92403 92406 92413 92418 92423 92427</zips>
+	</city>
+	<city>
+		<id>1840014022</id>
+		<name>Gainesville</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>29.6804</lat>
+		<lng>-82.3459</lng>
+		<population>220929</population>
+		<density>860.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>32608 32609 32607 32610 32612 32653 32603 32601 32605 32604 32611 32614 32627 32635</zips>
+	</city>
+	<city>
+		<id>1840033832</id>
+		<name>Spring Valley</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.0952</lat>
+		<lng>-115.2636</lng>
+		<population>220114</population>
+		<density>2393.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89147 89146 89103 89148 89113 89117 89118 89150 89164 89173</zips>
+	</city>
+	<city>
+		<id>1840021129</id>
+		<name>Tacoma</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>47.2431</lat>
+		<lng>-122.4531</lng>
+		<population>219234</population>
+		<density>1702.7</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98422 98403 98404 98405 98408 98409 98402 98406 98407 98466 98465 98416 98418 98444 98421 98401 98411 98412 98413 98415 98417 98419 98448 98471 98481 98490</zips>
+	</city>
+	<city>
+		<id>1840003858</id>
+		<name>Roanoke</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>37.2785</lat>
+		<lng>-79.9581</lng>
+		<population>218533</population>
+		<density>900.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>24019 24014 24015 24016 24017 24011 24012 24013 24022 24001 24002 24003 24004 24005 24006 24007 24008 24009 24010 24023 24024 24025 24026 24027 24028 24029 24030 24031 24032 24033 24034 24035 24036 24037 24038 24040 24042 24043</zips>
+	</city>
+	<city>
+		<id>1840019743</id>
+		<name>Brownsville</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>25.9975</lat>
+		<lng>-97.458</lng>
+		<population>215269</population>
+		<density>548.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>78521 78520 78526 78575 78578 78566 78522</zips>
+	</city>
+	<city>
+		<id>1840019570</id>
+		<name>College Station</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>30.5852</lat>
+		<lng>-96.2959</lng>
+		<population>213177</population>
+		<density>909</density>
+		<timezone>America/Chicago</timezone>
+		<zips>77843 77840 77845 77841 77842 77844 77881</zips>
+	</city>
+	<city>
+		<id>1840014421</id>
+		<name>Clarksville</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<lat>36.5692</lat>
+		<lng>-87.3413</lng>
+		<population>210551</population>
+		<density>650.9</density>
+		<timezone>America/Chicago</timezone>
+		<zips>42223 37043 37042 37040 37041 37044</zips>
+	</city>
+	<city>
+		<id>1840003478</id>
+		<name>Yonkers</name>
+		<state_abbrev>NY</state_abbrev>
+		<state>New York</state>
+		<lat>40.9466</lat>
+		<lng>-73.8673</lng>
+		<population>209780</population>
+		<density>4498.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>10708 10703 10701 10707 10705 10704 10710 10702</zips>
+	</city>
+	<city>
+		<id>1840020552</id>
+		<name>Moreno Valley</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.9244</lat>
+		<lng>-117.2045</lng>
+		<population>209578</population>
+		<density>1577.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92551 92553 92555 92557 92552 92554 92556</zips>
+	</city>
+	<city>
+		<id>1840021844</id>
+		<name>Thousand Oaks</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1914</lat>
+		<lng>-118.8756</lng>
+		<population>209570</population>
+		<density>884.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91320 91360 91361 91362 91319 91358 91359</zips>
+	</city>
+	<city>
+		<id>1840000327</id>
+		<name>Portland</name>
+		<state_abbrev>ME</state_abbrev>
+		<state>Maine</state>
+		<lat>43.6773</lat>
+		<lng>-70.2715</lng>
+		<population>209491</population>
+		<density>1223.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>04101 04102 04103 04108 04109 04019 04104 04112 04116 04122 04123 04124</zips>
+	</city>
+	<city>
+		<id>1840020402</id>
+		<name>Fontana</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.0968</lat>
+		<lng>-117.4599</lng>
+		<population>209279</population>
+		<density>1867.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92335 92336 92337 92331 92334 92402</zips>
+	</city>
+	<city>
+		<id>1840014524</id>
+		<name>Hickory</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.741</lat>
+		<lng>-81.3223</lng>
+		<population>206008</population>
+		<density>539.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>28601 28602 28603</zips>
+	</city>
+	<city>
+		<id>1840019156</id>
+		<name>Amarillo</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>35.1984</lat>
+		<lng>-101.8316</lng>
+		<population>205903</population>
+		<density>750.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>79121 79109 79101 79102 79103 79104 79106 79107 79118 79111 79110 79114 79116 79117 79120 79166 79168 79172 79174 79178 79189</zips>
+	</city>
+	<city>
+		<id>1840002648</id>
+		<name>Sioux Falls</name>
+		<state_abbrev>SD</state_abbrev>
+		<state>South Dakota</state>
+		<lat>43.5396</lat>
+		<lng>-96.7311</lng>
+		<population>204484</population>
+		<density>926</density>
+		<timezone>America/Chicago</timezone>
+		<zips>57108 57104 57105 57106 57107 57103 57197 57110 57117 57101 57109 57186 57193</zips>
+	</city>
+	<city>
+		<id>1840013730</id>
+		<name>Evansville</name>
+		<state_abbrev>IN</state_abbrev>
+		<state>Indiana</state>
+		<lat>37.9881</lat>
+		<lng>-87.5341</lng>
+		<population>203661</population>
+		<density>953.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>47714 47715 47710 47711 47713 47708 47701 47702 47703 47704 47705 47706 47716 47719 47722 47724 47728 47730 47731 47732 47733 47734 47735 47736 47737 47740 47747 47750</zips>
+	</city>
+	<city>
+		<id>1840006211</id>
+		<name>Huntington</name>
+		<state_abbrev>WV</state_abbrev>
+		<state>West Virginia</state>
+		<lat>38.4109</lat>
+		<lng>-82.4345</lng>
+		<population>202754</population>
+		<density>1110.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>25703 25702 25701 25705 25704 25755 25706 25708 25709 25710 25711 25712 25713 25714 25716 25717 25718 25719 25720 25721 25722 25723 25724 25725 25726 25727 25728 25729 25772 25773 25774 25775 25776 25777 25778</zips>
+	</city>
+	<city>
+		<id>1840004851</id>
+		<name>Waterbury</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<lat>41.5582</lat>
+		<lng>-73.0361</lng>
+		<population>202422</population>
+		<density>1547.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>06708 06702 06704 06705 06706 06710 06701 06703 06720 06721 06722 06723 06724 06725 06726</zips>
+	</city>
+	<city>
+		<id>1840020654</id>
+		<name>Frisco</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>33.156</lat>
+		<lng>-96.8216</lng>
+		<population>202075</population>
+		<density>1137.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75034 75036 75033 75035</zips>
+	</city>
+	<city>
+		<id>1840000644</id>
+		<name>Lorain</name>
+		<state_abbrev>OH</state_abbrev>
+		<state>Ohio</state>
+		<lat>41.4409</lat>
+		<lng>-82.184</lng>
+		<population>201808</population>
+		<density>1065.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>44052 44053 44055</zips>
+	</city>
+	<city>
+		<id>1840003185</id>
+		<name>Kalamazoo</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>42.2749</lat>
+		<lng>-85.5882</lng>
+		<population>200838</population>
+		<density>1146.8</density>
+		<timezone>America/Detroit</timezone>
+		<zips>49001 49006 49007 49008 49074 49005 49019</zips>
+	</city>
+	<city>
+		<id>1840020970</id>
+		<name>Galveston</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>29.2484</lat>
+		<lng>-94.8913</lng>
+		<population>200451</population>
+		<density>501.2</density>
+		<timezone>America/Chicago</timezone>
+		<zips>77551 77550 77555 77554 77552 77553</zips>
+	</city>
+	<city>
+		<id>1840015482</id>
+		<name>Spartanburg</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>34.9442</lat>
+		<lng>-81.9251</lng>
+		<population>200000</population>
+		<density>730.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>29302 29301 29307 29306 29304 29319</zips>
+	</city>
+	<city>
+		<id>1840021829</id>
+		<name>Santa Barbara</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.4285</lat>
+		<lng>-119.7202</lng>
+		<population>199023</population>
+		<density>1754.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93105 93101 93103 93109 93102 93120 93121 93130 93140 93190</zips>
+	</city>
+	<city>
+		<id>1840033833</id>
+		<name>Sunrise Manor</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.1783</lat>
+		<lng>-115.0487</lng>
+		<population>198325</population>
+		<density>2271.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89104 89142 89110 89115 89156 89121 89122 89162 89180</zips>
+	</city>
+	<city>
+		<id>1840020578</id>
+		<name>Huntington Beach</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.696</lat>
+		<lng>-118.0018</lng>
+		<population>197481</population>
+		<density>2825.9</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92648 92649 92646 92647 90742 92605 92615</zips>
+	</city>
+	<city>
+		<id>1840020709</id>
+		<name>Grand Prairie</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>32.6871</lat>
+		<lng>-97.0208</lng>
+		<population>197279</population>
+		<density>1050.5</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75052 75050 75051 75054 75104 75053 75265</zips>
+	</city>
+	<city>
+		<id>1840003834</id>
+		<name>Overland Park</name>
+		<state_abbrev>KS</state_abbrev>
+		<state>Kansas</state>
+		<lat>38.887</lat>
+		<lng>-94.687</lng>
+		<population>196676</population>
+		<density>1009.4</density>
+		<timezone>America/Chicago</timezone>
+		<zips>66214 66210 66211 66212 66213 66221 66223 66209 66202 66207 66204 66013 66251 66085 66224 66201 66225 66276 66282 66283</zips>
+	</city>
+	<city>
+		<id>1840020657</id>
+		<name>McKinney</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>33.2016</lat>
+		<lng>-96.667</lng>
+		<population>196160</population>
+		<density>1131</density>
+		<timezone>America/Chicago</timezone>
+		<zips>75069 75072 75070 75071</zips>
+	</city>
+	<city>
+		<id>1840022140</id>
+		<name>Waco</name>
+		<state_abbrev>TX</state_abbrev>
+		<state>Texas</state>
+		<lat>31.5599</lat>
+		<lng>-97.1882</lng>
+		<population>195709</population>
+		<density>604.6</density>
+		<timezone>America/Chicago</timezone>
+		<zips>76798 76710 76711 76712 76708 76701 76707 76706 76704 76702 76703 76714 76797 76799</zips>
+	</city>
+	<city>
+		<id>1840005613</id>
+		<name>Hagerstown</name>
+		<state_abbrev>MD</state_abbrev>
+		<state>Maryland</state>
+		<lat>39.6401</lat>
+		<lng>-77.7217</lng>
+		<population>195261</population>
+		<density>1334</density>
+		<timezone>America/New_York</timezone>
+		<zips>21742 21740 21741 21747 21749</zips>
+	</city>
+	<city>
+		<id>1840020483</id>
+		<name>Glendale</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1819</lat>
+		<lng>-118.2468</lng>
+		<population>194512</population>
+		<density>2464</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91210 91214 91201 91205 91208 91203 91202 91204 91207 91206 91046 91020 91209 91221 91222 91225 91226</zips>
+	</city>
+	<city>
+		<id>1840020041</id>
+		<name>Nampa</name>
+		<state_abbrev>ID</state_abbrev>
+		<state>Idaho</state>
+		<lat>43.5844</lat>
+		<lng>-116.5638</lng>
+		<population>193935</population>
+		<density>1139.2</density>
+		<timezone>America/Boise</timezone>
+		<zips>83651 83687 83686</zips>
+	</city>
+	<city>
+		<id>1840020567</id>
+		<name>Peoria</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.7843</lat>
+		<lng>-112.2989</lng>
+		<population>191292</population>
+		<density>419.5</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85373 85381 85383 85382 85324 85345 85380 85385</zips>
+	</city>
+	<city>
+		<id>1840000471</id>
+		<name>Cedar Rapids</name>
+		<state_abbrev>IA</state_abbrev>
+		<state>Iowa</state>
+		<lat>41.9662</lat>
+		<lng>-91.6783</lng>
+		<population>191104</population>
+		<density>724</density>
+		<timezone>America/Chicago</timezone>
+		<zips>52404 52405 52401 52411 52402 52403 52406 52407 52408 52409 52410 52497 52498 52499</zips>
+	</city>
+	<city>
+		<id>1840021189</id>
+		<name>Vancouver</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>45.6366</lat>
+		<lng>-122.5967</lng>
+		<population>190700</population>
+		<density>1510.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98684 98664 98665 98660 98661 98662 98663 98682 98683 98687</zips>
+	</city>
+	<city>
+		<id>1840033743</id>
+		<name>Paradise</name>
+		<state_abbrev>NV</state_abbrev>
+		<state>Nevada</state>
+		<lat>36.0872</lat>
+		<lng>-115.1355</lng>
+		<population>189733</population>
+		<density>1727.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>89103 89109 89158 89169 89118 89119 89121 89120 89123 89111 89132 89136 89154 89157 89159 89160 89170 89177 89193</zips>
+	</city>
+	<city>
+		<id>1840015067</id>
+		<name>Ocala</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>29.178</lat>
+		<lng>-82.1511</lng>
+		<population>186840</population>
+		<density>518.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>34475 34474 34471 34470 34477 34478 34483</zips>
+	</city>
+	<city>
+		<id>1840000478</id>
+		<name>Erie</name>
+		<state_abbrev>PA</state_abbrev>
+		<state>Pennsylvania</state>
+		<lat>42.1167</lat>
+		<lng>-80.0733</lng>
+		<population>185556</population>
+		<density>1913.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>16546 16510 16508 16507 16502 16504 16503 16550 16501 16511 16512 16514 16522 16530 16534 16538 16541 16544 16553</zips>
+	</city>
+	<city>
+		<id>1840003862</id>
+		<name>Newport News</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>37.1051</lat>
+		<lng>-76.5185</lng>
+		<population>185118</population>
+		<density>1035.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>23601 23603 23608 23604 23605 23606 23607 23602 23609 23612 23628 23630</zips>
+	</city>
+	<city>
+		<id>1840005710</id>
+		<name>Frederick</name>
+		<state_abbrev>MD</state_abbrev>
+		<state>Maryland</state>
+		<lat>39.4337</lat>
+		<lng>-77.4141</lng>
+		<population>184991</population>
+		<density>1263.9</density>
+		<timezone>America/New_York</timezone>
+		<zips>21705 21702 21701 21709</zips>
+	</city>
+	<city>
+		<id>1840014495</id>
+		<name>Murfreesboro</name>
+		<state_abbrev>TN</state_abbrev>
+		<state>Tennessee</state>
+		<lat>35.849</lat>
+		<lng>-86.4121</lng>
+		<population>184763</population>
+		<density>926.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>37132 37130 37129 37128 37127 37131 37133</zips>
+	</city>
+	<city>
+		<id>1840014236</id>
+		<name>Fort Lauderdale</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>26.1412</lat>
+		<lng>-80.1464</lng>
+		<population>182673</population>
+		<density>2039.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>33301 33304 33305 33306 33308 33309 33334 33316 33315 33312 33311 33320 33336 33338 33339 33340 33346 33348 33394</zips>
+	</city>
+	<city>
+		<id>1840007034</id>
+		<name>Aurora</name>
+		<state_abbrev>IL</state_abbrev>
+		<state>Illinois</state>
+		<lat>41.7638</lat>
+		<lng>-88.2902</lng>
+		<population>181405</population>
+		<density>1555.1</density>
+		<timezone>America/Chicago</timezone>
+		<zips>60505 60506 60504 60502 60503 60519 60507 60568 60569 60572 60598 60599</zips>
+	</city>
+	<city>
+		<id>1840021942</id>
+		<name>Tempe</name>
+		<state_abbrev>AZ</state_abbrev>
+		<state>Arizona</state>
+		<lat>33.3881</lat>
+		<lng>-111.9319</lng>
+		<population>181005</population>
+		<density>1748.3</density>
+		<timezone>America/Phoenix</timezone>
+		<zips>85281 85282 85283 85284 85280 85285 85287 85288</zips>
+	</city>
+	<city>
+		<id>1840004837</id>
+		<name>Danbury</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<lat>41.4015</lat>
+		<lng>-73.4709</lng>
+		<population>180143</population>
+		<density>794.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>06810 06811 06813</zips>
+	</city>
+	<city>
+		<id>1840014105</id>
+		<name>Spring Hill</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.4798</lat>
+		<lng>-82.53</lng>
+		<population>178833</population>
+		<density>753.2</density>
+		<timezone>America/New_York</timezone>
+		<zips>34608 34609 34604 34606 34611</zips>
+	</city>
+	<city>
+		<id>1840013468</id>
+		<name>Gastonia</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.2494</lat>
+		<lng>-81.1854</lng>
+		<population>178220</population>
+		<density>598.7</density>
+		<timezone>America/New_York</timezone>
+		<zips>28054 28056 28052</zips>
+	</city>
+	<city>
+		<id>1840021632</id>
+		<name>Salinas</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>36.6883</lat>
+		<lng>-121.6317</lng>
+		<population>177410</population>
+		<density>2672.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93901 93905 93906 93902 93915</zips>
+	</city>
+	<city>
+		<id>1840003845</id>
+		<name>Fredericksburg</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>38.2992</lat>
+		<lng>-77.4872</lng>
+		<population>176791</population>
+		<density>1044</density>
+		<timezone>America/New_York</timezone>
+		<zips>22401 22404 22412</zips>
+	</city>
+	<city>
+		<id>1840020410</id>
+		<name>Ontario</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.0393</lat>
+		<lng>-117.6064</lng>
+		<population>176326</population>
+		<density>1362</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91762 91761 91764 91743 91758</zips>
+	</city>
+	<city>
+		<id>1840020245</id>
+		<name>Elk Grove</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>38.4161</lat>
+		<lng>-121.3842</lng>
+		<population>176105</population>
+		<density>1596.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95624 95757 95758 95759</zips>
+	</city>
+	<city>
+		<id>1840013612</id>
+		<name>Gainesville</name>
+		<state_abbrev>GA</state_abbrev>
+		<state>Georgia</state>
+		<lat>34.2902</lat>
+		<lng>-83.8294</lng>
+		<population>175569</population>
+		<density>493.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>30501 30507 30504</zips>
+	</city>
+	<city>
+		<id>1840016196</id>
+		<name>Cary</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.7819</lat>
+		<lng>-78.8195</lng>
+		<population>174880</population>
+		<density>1126.5</density>
+		<timezone>America/New_York</timezone>
+		<zips>27560 27518 27519 27511 27513 27512</zips>
+	</city>
+	<city>
+		<id>1840020411</id>
+		<name>Rancho Cucamonga</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.1247</lat>
+		<lng>-117.5667</lng>
+		<population>174696</population>
+		<density>1450.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>91730 91701 91737 91739 91729</zips>
+	</city>
+	<city>
+		<id>1840020623</id>
+		<name>Oceanside</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.2247</lat>
+		<lng>-117.3083</lng>
+		<population>173722</population>
+		<density>1625.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92058 92054 92057 92056 92049 92051 92052 92068</zips>
+	</city>
+	<city>
+		<id>1840020577</id>
+		<name>Garden Grove</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.7787</lat>
+		<lng>-117.9601</lng>
+		<population>171637</population>
+		<density>3691.2</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92843 92840 92841 92844 92845 92842 92846</zips>
+	</city>
+	<city>
+		<id>1840020516</id>
+		<name>Lancaster</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.6935</lat>
+		<lng>-118.1753</lng>
+		<population>171465</population>
+		<density>702.2</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93535 93534 93536 93539 93584</zips>
+	</city>
+	<city>
+		<id>1840020550</id>
+		<name>Hemet</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.7341</lat>
+		<lng>-116.9969</lng>
+		<population>170621</population>
+		<density>1182.9</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92545 92543 92546</zips>
+	</city>
+	<city>
+		<id>1840015141</id>
+		<name>Pembroke Pines</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>26.0128</lat>
+		<lng>-80.3382</lng>
+		<population>170472</population>
+		<density>2014</density>
+		<timezone>America/New_York</timezone>
+		<zips>33029 33028 33025 33024 33026 33023 33027 33084</zips>
+	</city>
+	<city>
+		<id>1840015034</id>
+		<name>Panama City</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>30.1995</lat>
+		<lng>-85.6003</lng>
+		<population>169810</population>
+		<density>373.9</density>
+		<timezone>America/Chicago</timezone>
+		<zips>32401 32404 32405 32402 32412</zips>
+	</city>
+	<city>
+		<id>1840021499</id>
+		<name>Vallejo</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>38.1125</lat>
+		<lng>-122.2342</lng>
+		<population>169541</population>
+		<density>1588.3</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94592 94591 94589 94590</zips>
+	</city>
+	<city>
+		<id>1840002983</id>
+		<name>Manchester</name>
+		<state_abbrev>NH</state_abbrev>
+		<state>New Hampshire</state>
+		<lat>42.9848</lat>
+		<lng>-71.4447</lng>
+		<population>169097</population>
+		<density>1343.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>03109 03104 03101 03103 03102 03105 03108 03111</zips>
+	</city>
+	<city>
+		<id>1840020076</id>
+		<name>Medford</name>
+		<state_abbrev>OR</state_abbrev>
+		<state>Oregon</state>
+		<lat>42.3372</lat>
+		<lng>-122.854</lng>
+		<population>168959</population>
+		<density>1191.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>97504 97501</zips>
+	</city>
+	<city>
+		<id>1840015476</id>
+		<name>Mauldin</name>
+		<state_abbrev>SC</state_abbrev>
+		<state>South Carolina</state>
+		<lat>34.7821</lat>
+		<lng>-82.3032</lng>
+		<population>168313</population>
+		<density>808.4</density>
+		<timezone>America/New_York</timezone>
+		<zips>29662 29607 29681</zips>
+	</city>
+	<city>
+		<id>1840021579</id>
+		<name>Santa Cruz</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>36.9789</lat>
+		<lng>-122.0346</lng>
+		<population>167835</population>
+		<density>1859.8</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95065 95064 95060 95062 95061 95063 95067</zips>
+	</city>
+	<city>
+		<id>1840020502</id>
+		<name>Palmdale</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>34.5944</lat>
+		<lng>-118.1057</lng>
+		<population>166895</population>
+		<density>607.5</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93591 93552 93551 93550 93590 93599</zips>
+	</city>
+	<city>
+		<id>1840004828</id>
+		<name>Norwich</name>
+		<state_abbrev>CT</state_abbrev>
+		<state>Connecticut</state>
+		<lat>41.5495</lat>
+		<lng>-72.0882</lng>
+		<population>166885</population>
+		<density>551.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>06380 06389 06360</zips>
+	</city>
+	<city>
+		<id>1840002870</id>
+		<name>Muskegon</name>
+		<state_abbrev>MI</state_abbrev>
+		<state>Michigan</state>
+		<lat>43.2281</lat>
+		<lng>-86.2562</lng>
+		<population>166847</population>
+		<density>1045.2</density>
+		<timezone>America/Detroit</timezone>
+		<zips>49442 49443 49440 49441</zips>
+	</city>
+	<city>
+		<id>1840015083</id>
+		<name>Leesburg</name>
+		<state_abbrev>FL</state_abbrev>
+		<state>Florida</state>
+		<lat>28.7672</lat>
+		<lng>-81.8962</lng>
+		<population>166200</population>
+		<density>270.6</density>
+		<timezone>America/New_York</timezone>
+		<zips>34748 34762 34736 34749 34789</zips>
+	</city>
+	<city>
+		<id>1840014479</id>
+		<name>High Point</name>
+		<state_abbrev>NC</state_abbrev>
+		<state>North Carolina</state>
+		<lat>35.991</lat>
+		<lng>-79.9937</lng>
+		<population>164836</population>
+		<density>774.3</density>
+		<timezone>America/New_York</timezone>
+		<zips>27265 27282 27235 27268 27262 27263 27260 27261 27264</zips>
+	</city>
+	<city>
+		<id>1840005563</id>
+		<name>Tuscaloosa</name>
+		<state_abbrev>AL</state_abbrev>
+		<state>Alabama</state>
+		<lat>33.2348</lat>
+		<lng>-87.5268</lng>
+		<population>164414</population>
+		<density>660</density>
+		<timezone>America/Chicago</timezone>
+		<zips>35475 35476 35405 35404 35406 35401 35487 35403 35407 35486</zips>
+	</city>
+	<city>
+		<id>1840021639</id>
+		<name>Visalia</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>36.3276</lat>
+		<lng>-119.3269</lng>
+		<population>163681</population>
+		<density>1433</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>93277 93291 93292 93278 93279 93290</zips>
+	</city>
+	<city>
+		<id>1840019789</id>
+		<name>Marysville</name>
+		<state_abbrev>WA</state_abbrev>
+		<state>Washington</state>
+		<lat>48.0809</lat>
+		<lng>-122.1561</lng>
+		<population>162664</population>
+		<density>1318.1</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>98271 98270</zips>
+	</city>
+	<city>
+		<id>1840020313</id>
+		<name>Merced</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.3057</lat>
+		<lng>-120.4779</lng>
+		<population>160638</population>
+		<density>1455.9</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>95348 95340 95341 95343</zips>
+	</city>
+	<city>
+		<id>1840020293</id>
+		<name>Hayward</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>37.6328</lat>
+		<lng>-122.0766</lng>
+		<population>160602</population>
+		<density>1353.4</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>94541 94542 94544 94545 94587 94540 94543 94557</zips>
+	</city>
+	<city>
+		<id>1840008354</id>
+		<name>Lafayette</name>
+		<state_abbrev>IN</state_abbrev>
+		<state>Indiana</state>
+		<lat>40.3991</lat>
+		<lng>-86.8593</lng>
+		<population>160543</population>
+		<density>930.9</density>
+		<timezone>America/Indiana/Indianapolis</timezone>
+		<zips>47909 47905 47904 47901 47902 47903</zips>
+	</city>
+	<city>
+		<id>1840019305</id>
+		<name>Corona</name>
+		<state_abbrev>CA</state_abbrev>
+		<state>California</state>
+		<lat>33.8616</lat>
+		<lng>-117.5649</lng>
+		<population>158346</population>
+		<density>1532.6</density>
+		<timezone>America/Los_Angeles</timezone>
+		<zips>92882 92880 92881 92879 92877 92878</zips>
+	</city>
+	<city>
+		<id>1840000838</id>
+		<name>Paterson</name>
+		<state_abbrev>NJ</state_abbrev>
+		<state>New Jersey</state>
+		<lat>40.9147</lat>
+		<lng>-74.1624</lng>
+		<population>157864</population>
+		<density>7244.8</density>
+		<timezone>America/New_York</timezone>
+		<zips>07522 07524 07514 07513 07505 07501 07504 07503 07502 07507 07509 07510 07533 07543 07544</zips>
+	</city>
+	<city>
+		<id>1840003837</id>
+		<name>Alexandria</name>
+		<state_abbrev>VA</state_abbrev>
+		<state>Virginia</state>
+		<lat>38.8185</lat>
+		<lng>-77.0861</lng>
+		<population>157594</population>
+		<density>4074.1</density>
+		<timezone>America/New_York</timezone>
+		<zips>22302 22301 22304 22305 22311 22314 20598 22320 22331 22332 22333 22334</zips>
+	</city>
+	<city>
+		<id>1630035577</id>
+		<name>San Juan</name>
+		<state_abbrev>PR</state_abbrev>
+		<state>Puerto Rico</state>
+		<lat>18.3985</lat>
+		<lng>-66.061</lng>
+		<population>1814587</population>
+		<density>3128.8</density>
+		<timezone>America/Puerto_Rico</timezone>
+		<zips>00918 00913 00912 00911 00917 00915 00926 00927 00924 00925 00923 00920 00921 00906 00907 00901 00909 00969 00908 00910 00919 00922 00928 00929 00931 00935 00936 00937 00939 00940 00955 00975</zips>
+	</city>
+</usa_cities>
