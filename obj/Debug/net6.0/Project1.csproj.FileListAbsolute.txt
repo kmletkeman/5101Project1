@@ -15,3 +15,4 @@ C:\SCHOOL\Projects\INFO-5101\Project1\obj\Debug\net6.0\refint\Project1.dll
 C:\SCHOOL\Projects\INFO-5101\Project1\obj\Debug\net6.0\Project1.pdb
 C:\SCHOOL\Projects\INFO-5101\Project1\obj\Debug\net6.0\Project1.genruntimeconfig.cache
 C:\SCHOOL\Projects\INFO-5101\Project1\obj\Debug\net6.0\ref\Project1.dll
+C:\SCHOOL\Projects\INFO-5101\Project1\obj\Debug\net6.0\Project1.sourcelink.json

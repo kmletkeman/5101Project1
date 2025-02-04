@@ -15,7 +15,7 @@ public class Statistics
         CityData = modeler.ParseFile(fileName, fileType); // Parse the data and store in the dictionary
     }
 
-    // Method reporets all the city info in the dictionary for the selected city name
+    // Method reports all the city info in the dictionary for the selected city name
     public void ReportCityInformation(string cityName)
     {
         if (CityData.ContainsKey(cityName))
@@ -74,8 +74,8 @@ public class Statistics
         }
     }
 
-    // Method reports the distance between any two cities using latitude and longitude stored in the cities dictionary
-    public static double ReportDistanceBetweenCities(double lat1, double lon1, double lat2, double lon2)
+    // Method reports the distance between any two cities in km using latitude and longitude stored in the cities dictionary
+    public double ReportDistanceBetweenCities(double lat1, double lon1, double lat2, double lon2)
     {
         // Radius of Earth in kilometers
         double R = 6371;
@@ -102,12 +102,71 @@ public class Statistics
     }
 
     // Method to convert degrees to radians
-    private static double ToRadians(double angle)
+    private double ToRadians(double angle)
     {
         return angle * (Math.PI / 180);
     }
 
-    // Method reports the distaance between a city and the state capital for the same state
-    
+    // Method reports the distance between a city and the state capital for the same state
+    public void ReportDistanceFromCapital(string cityName)
+    {
+        try
+        {
+            if (CityData.ContainsKey(cityName))
+            {
+                var city = CityData[cityName].FirstOrDefault();
 
+                if (city != null)
+                {
+                    // Get the capital of the state using its abbreviation
+                    var capitalCity = ReportCapital(city.StateAbbrev);
+
+                    if (capitalCity.HasValue)
+                    {
+                        // Extract capital details
+                        string capitalName = capitalCity.Value.CapitalName;
+                        double capitalLat = capitalCity.Value.Latitude;
+                        double capitalLon = capitalCity.Value.Longitude;
+
+                        // Calculate the distance
+                        double distance = ReportDistanceBetweenCities(city.Latitude, city.Longitude, capitalLat, capitalLon);
+
+                        Console.WriteLine($"The distance between {cityName} and {capitalName} (capital of {city.State}) is: {distance} km.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"No capital found for state {city.State}.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"City {cityName} does not have valid data.");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"City {cityName} not found in the data.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error while calculating distance: {ex.Message}");
+        }
+    }
+
+
+
+    // Method to report the capital city and the longitude and latitude of a given state, returns a tuple
+    public (string CapitalName, double Latitude, double Longitude)? ReportCapital(string stateabbrev)
+    {
+        var capital = CityData.Values
+            .SelectMany(cityList => cityList)
+            .FirstOrDefault(city => city.StateAbbrev == stateabbrev && !string.IsNullOrEmpty(city.Capital));
+
+        if (capital != null)
+        {
+            return (capital.Name, capital.Latitude, capital.Longitude);
+        }
+        return null;
+    }
 }

@@ -37,7 +37,7 @@ class Program
 
             if (cityAInfo != null && cityBInfo != null)
             {
-                double distance = Statistics.ReportDistanceBetweenCities(
+                double distance = stats.ReportDistanceBetweenCities(
                     cityAInfo.Latitude, cityAInfo.Longitude,
                     cityBInfo.Latitude, cityBInfo.Longitude);
 
@@ -47,6 +47,11 @@ class Program
             {
                 Console.WriteLine("One or both of the cities were not found in the data.");
             }
+
+            // Test ReportDistanceFromCapital method
+            string testCity = "Miami";
+            Console.WriteLine($"\nCalculating distance from {testCity} to its state capital...");
+            stats.ReportDistanceFromCapital(testCity);
         }
         catch (Exception ex)
         {
