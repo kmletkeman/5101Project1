@@ -1,18 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using static PopulationChangeEvent;
 
 public class Statistics
 {
     // Dictionary to hold city information
     public Dictionary<string, List<CityInfo>> CityData { get; private set; }
+    private PopulationChangeEvent _populationChangeEvent;
 
     // Constructor to initialize the city data by calling the DataModeler
     public Statistics(string fileName, string fileType)
     {
         DataModeler modeler = new DataModeler();
+        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);//new change
         CityData = modeler.ParseFile(fileName, fileType); // Parse the data and store in the dictionary
+        _populationChangeEvent = new PopulationChangeEvent(CityData);
+        _populationChangeEvent.OnPopulationChanged += PopulationChangeHandler;
     }
 
     // Method reports all the city info in the dictionary for the selected city name
@@ -169,4 +175,108 @@ public class Statistics
         }
         return null;
     }
+
+
+    // Method to display map of the specified city
+    public void ShowCityOnMap(string cityName, string stateAbbrev)
+    {
+        if (CityData.ContainsKey(cityName))
+        {
+            
+            var city = CityData[cityName].FirstOrDefault(c => c.StateAbbrev == stateAbbrev);
+            if (city != null)
+            {
+               
+                string url = $"https://www.google.com/maps/search/?api=1&query={city.Latitude},{city.Longitude}";
+                Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
+            }
+            else
+            {
+                Console.WriteLine("City not found in the specified state.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("City not found.");
+        }
+    }
+
+    // Method to reports all cities in the specified state
+    public void ReportAllCities(string stateAbbrev)
+    {
+        // Retrieves all cities matching the state abbreviation
+        var cities = CityData.Values.SelectMany(c => c).Where(c => c.StateAbbrev == stateAbbrev).ToList();
+        if (cities.Any())
+        {
+            Console.WriteLine($"Cities in {stateAbbrev}:");
+            foreach (var city in cities)
+            {
+                Console.WriteLine(city.Name);
+            }
+        }
+        else
+        {
+            Console.WriteLine("No cities found for the given state abbreviation.");
+        }
+    }
+
+    //Method to reports the largest city in the specified state based on population
+    public void ReportLargestCity(string stateAbbrev)
+    {
+        var largestCity = CityData.Values.SelectMany(c => c)
+            .Where(c => c.StateAbbrev == stateAbbrev)
+            .OrderByDescending(c => c.Population) // Sorts in descending order by population
+            .FirstOrDefault(); 
+
+        if (largestCity != null)
+        {
+            Console.WriteLine($"Largest city in {stateAbbrev}: {largestCity.Name} with population {largestCity.Population}");
+        }
+        else
+        {
+            Console.WriteLine("No cities found for the given state abbreviation.");
+        }
+    }
+
+    // Method to reports the smallest city in the specified state based on population
+    public void ReportSmallestCity(string stateAbbrev)
+    {
+        var smallestCity = CityData.Values.SelectMany(c => c)
+            .Where(c => c.StateAbbrev == stateAbbrev)
+            .OrderBy(c => c.Population) 
+            .FirstOrDefault(); // Retrieves the first entry, which has the lowest population
+
+        if (smallestCity != null)
+        {
+            Console.WriteLine($"Smallest city in {stateAbbrev}: {smallestCity.Name} with population {smallestCity.Population}");
+        }
+        else
+        {
+            Console.WriteLine("No cities found for the given state abbreviation.");
+        }
+    }
+
+    // Method to reports the total population of a specified state by summing all city populations
+    public void ReportStatePopulation(string stateAbbrev)
+    {
+        int totalPopulation = CityData.Values.SelectMany(c => c)
+            .Where(c => c.StateAbbrev == stateAbbrev)
+            .Sum(c => c.Population); // Computes the sum of populations
+
+        Console.WriteLine($"Total population of {stateAbbrev}: {totalPopulation}");
+    }
+
+    // Method to reports the average population density of a specified state
+    private void PopulationChangeHandler(object sender, PopulationChangedEventArgs e)
+    {
+        Console.WriteLine($"[EVENT] Population updated for {e.CityName}, {e.StateAbbrev}:");
+        Console.WriteLine($"Old Population: {e.OldPopulation} → New Population: {e.NewPopulation}");
+        Console.WriteLine($"Old Density: {e.OldDensity} → Adjusted Density: {e.AdjustedDensity}");
+    }
+    public void ChangeCityPopulation(string cityName, string stateAbbrev, int newPopulation)
+    {
+        _populationChangeEvent.UpdatePopulation(cityName, stateAbbrev, newPopulation);
+    }
+
+
 }
