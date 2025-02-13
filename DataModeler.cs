@@ -145,20 +145,46 @@ public class DataModeler
         }
     }
 
-    // Method to parse file based on type using delegate
+    /* // Method to parse file based on type using delegate
+     public Dictionary<string, List<CityInfo>> ParseFile(string fileName, string fileType)
+     {
+         var parsers = new Dictionary<string, ParseDelegate>(StringComparer.OrdinalIgnoreCase)
+         {
+             { "json", ParseJSON },
+             { "xml", ParseXML },
+             { "csv", ParseCSV }
+         };
+
+         if (!parsers.TryGetValue(fileType, out var parser))
+             throw new ArgumentException($"Unsupported file type: {fileType}");
+
+         parser(fileName);
+         return cityData;
+     }
+    */
+
     public Dictionary<string, List<CityInfo>> ParseFile(string fileName, string fileType)
     {
-        var parsers = new Dictionary<string, ParseDelegate>(StringComparer.OrdinalIgnoreCase)
+        if (!File.Exists(fileName))
         {
-            { "json", ParseJSON },
-            { "xml", ParseXML },
-            { "csv", ParseCSV }
-        };
+            Console.WriteLine($"Error: File '{fileName}' not found.");
+            return new Dictionary<string, List<CityInfo>>();  // Return empty dictionary instead of crashing
+        }
 
-        if (!parsers.TryGetValue(fileType, out var parser))
-            throw new ArgumentException($"Unsupported file type: {fileType}");
+        if (fileType == "XML")
+        {
+            ParseXML(fileName);
+        }
+        else if (fileType == "JSON")
+        {
+            ParseJSON(fileName);
+        }
+        else if (fileType == "CSV")
+        {
+            ParseCSV(fileName);
+        }
 
-        parser(fileName);
         return cityData;
     }
+
 }
