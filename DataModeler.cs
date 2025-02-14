@@ -4,21 +4,44 @@ using System.IO;
 using System.Xml;
 using Newtonsoft.Json;
 using System.Globalization;
+using System.Text.Json;
+using System.Xml.Serialization;
+using System.Text;
 
 public class DataModeler
 {
-    // Delegate for parsing methods
-    public delegate void ParseDelegate(string fileName);
+    public delegate void ParseDelegate(string fileName);// Delegate for parsing methods
+    public delegate void SaveDelegate(Dictionary<string, List<CityInfo>> cityData, string fileName);// Delegate for saving methods
+    private Dictionary<string, List<CityInfo>> _cityData = new Dictionary<string, List<CityInfo>>();// Dictionary to hold city data
 
-    // Dictionary to hold city data
-    private Dictionary<string, List<CityInfo>> cityData = new();
+    // Method to parse file based on type using delegate
+    public Dictionary<string, List<CityInfo>> ParseFile(string fileName, string fileType)
+    {
+        if (!File.Exists(fileName))
+        {
+            Console.WriteLine($"Error: File '{fileName}' not found.");
+            return new Dictionary<string, List<CityInfo>>();  // Return empty dictionary instead of crashing
+        }
+
+        var parsers = new Dictionary<string, ParseDelegate>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "json", ParseJSON },
+            { "xml", ParseXML },
+            { "csv", ParseCSV }
+        };
+
+        if (!parsers.TryGetValue(fileType, out var parser))
+            throw new ArgumentException($"Unsupported file type: {fileType}");
+
+        parser(fileName);
+        return _cityData;
+    }
 
     // Method to parse XML file
     public void ParseXML(string fileName)
     {
         if (!File.Exists(fileName))
             throw new FileNotFoundException($"File not found: {fileName}");
-
         try
         {
             // Load the XML document
@@ -39,7 +62,7 @@ public class DataModeler
                     var stateAbbrev = cityNode["state_abbrev"]?.InnerText ?? "N/A";
                     var state = cityNode["state"]?.InnerText ?? "N/A";
                     var capital = cityNode["capital"]?.InnerText ?? "N/A";
-                    var latitude = double.Parse(cityNode["lat"]?.InnerText ?? "0");
+                    var lattitude = double.Parse(cityNode["lat"]?.InnerText ?? "0");
                     var longitude = double.Parse(cityNode["lng"]?.InnerText ?? "0");
                     var population = int.Parse(cityNode["population"]?.InnerText ?? "0");
                     var density = double.Parse(cityNode["density"]?.InnerText ?? "0");
@@ -47,14 +70,21 @@ public class DataModeler
                     var zips = cityNode["zips"]?.InnerText ?? "N/A";
 
                     // Create CityInfo object
-                    var city = new CityInfo(id, name, stateAbbrev, state, capital, latitude, longitude, population, density, timeZone, zips);
+                    var city = new CityInfo(id, name, stateAbbrev, state, capital, lattitude, longitude, population, density, timeZone, zips);
 
                     // Add the city to the list
                     cities.Add(city);
                 }
 
-                // Forward the list of cities to AddCitiesToDictionary
-                AddCitiesToDictionary(cities);
+                // If the list is not empty, forward it to AddCitiesToDictionary
+                if (cities.Count > 0)
+                {
+                    AddCitiesToDictionary(cities);
+                }
+                else
+                {
+                    Console.WriteLine("No valid cities were found in the XML file.");
+                }
             }
         }
         catch (Exception ex)
@@ -68,12 +98,33 @@ public class DataModeler
     {
         if (!File.Exists(fileName))
             throw new FileNotFoundException($"File not found: {fileName}");
-
         try
         {
             string jsonData = File.ReadAllText(fileName);
-            var cities = JsonConvert.DeserializeObject<List<CityInfo>>(jsonData) ?? new List<CityInfo>();
-            AddCitiesToDictionary(cities);
+
+            // Deserialize the JSON data into a list of CityInfo objects
+            var cities = JsonConvert.DeserializeObject<List<CityInfo>>(jsonData);
+
+            // Ensure the list is valid
+            if (cities == null)
+            {
+                Console.WriteLine("No valid cities were found in the JSON file.");
+                return;
+            }
+
+            // If the list is not empty, forward it to AddCitiesToDictionary
+            if (cities.Count > 0)
+            {
+                AddCitiesToDictionary(cities);
+            }
+            else
+            {
+                Console.WriteLine("No valid cities were found in the JSON file.");
+            }
+        }
+        catch (JsonSerializationException ex)
+        {
+            Console.WriteLine($"Error deserializing JSON data: {ex.Message}");
         }
         catch (Exception ex)
         {
@@ -86,7 +137,6 @@ public class DataModeler
     {
         if (!File.Exists(fileName))
             throw new FileNotFoundException($"File not found: {fileName}");
-
         try
         {
             // Read all lines from the CSV file
@@ -104,27 +154,45 @@ public class DataModeler
                     continue;
 
                 // Parse the city data from the columns
-                var id = int.Parse(columns[0]);
-                var name = columns[1];
-                var stateAbbrev = columns[2];
-                var state = columns[3];
-                var capital = columns[4];
-                var latitude = double.Parse(columns[5], CultureInfo.InvariantCulture);
-                var longitude = double.Parse(columns[6], CultureInfo.InvariantCulture);
-                var population = int.Parse(columns[7]);
-                var density = double.Parse(columns[8], CultureInfo.InvariantCulture);
-                var timeZone = columns[9];
-                var zips = columns[10]; // Zips as a single string
+                if (!int.TryParse(columns[0], out int id))
+                    throw new FormatException($"Invalid ID format: {columns[0]}");
+
+                string name = columns[1];
+                string stateAbbrev = columns[2];
+                string state = columns[3];
+                string capital = columns[4];
+
+                if (!double.TryParse(columns[5], out double lattitude))
+                    throw new FormatException($"Invalid lattitude format: {columns[5]}");
+
+                if (!double.TryParse(columns[6], out double longitude))
+                    throw new FormatException($"Invalid longitude format: {columns[6]}");
+
+                if (!int.TryParse(columns[7], out int population))
+                    throw new FormatException($"Invalid population format: {columns[7]}");
+
+                if (!double.TryParse(columns[8], out double density))
+                    throw new FormatException($"Invalid density format: {columns[8]}");
+
+                string timeZone = columns[9];
+                string zips = columns[10]; // Zips as a single string
 
                 // Create CityInfo object
-                var city = new CityInfo(id, name, stateAbbrev, state, capital, latitude, longitude, population, density, timeZone, zips);
+                var city = new CityInfo(id, name, stateAbbrev, state, capital, lattitude, longitude, population, density, timeZone, zips);
 
                 // Add the city to the list
                 cities.Add(city);
             }
 
-            // Forward the list of cities to AddCitiesToDictionary
-            AddCitiesToDictionary(cities);
+            // If the list is not empty, forward it to AddCitiesToDictionary
+            if (cities.Count > 0)
+            {
+                AddCitiesToDictionary(cities);
+            }
+            else
+            {
+                Console.WriteLine("No valid cities were found in the CSV file.");
+            }
         }
         catch (Exception ex)
         {
@@ -137,54 +205,120 @@ public class DataModeler
     {
         foreach (var city in cities)
         {
-            if (!cityData.ContainsKey(city.Name))
+            if (!_cityData.ContainsKey(city.Name))
             {
-                cityData[city.Name] = new List<CityInfo>();
+                _cityData[city.Name] = new List<CityInfo>();
             }
-            cityData[city.Name].Add(city);
+            _cityData[city.Name].Add(city);
         }
     }
 
-    /* // Method to parse file based on type using delegate
-     public Dictionary<string, List<CityInfo>> ParseFile(string fileName, string fileType)
-     {
-         var parsers = new Dictionary<string, ParseDelegate>(StringComparer.OrdinalIgnoreCase)
-         {
-             { "json", ParseJSON },
-             { "xml", ParseXML },
-             { "csv", ParseCSV }
-         };
-
-         if (!parsers.TryGetValue(fileType, out var parser))
-             throw new ArgumentException($"Unsupported file type: {fileType}");
-
-         parser(fileName);
-         return cityData;
-     }
-    */
-
-    public Dictionary<string, List<CityInfo>> ParseFile(string fileName, string fileType)
+    // Method to save file based on type using delegate
+    public void SaveFile(Dictionary<string, List<CityInfo>> cityData, string fileName, string fileType)
     {
         if (!File.Exists(fileName))
         {
-            Console.WriteLine($"Error: File '{fileName}' not found.");
-            return new Dictionary<string, List<CityInfo>>();  // Return empty dictionary instead of crashing
+            Console.WriteLine($"Error: File '{fileName}' not found. Cannot save changes.");
+            return;
         }
 
-        if (fileType == "XML")
+        var savers = new Dictionary<string, SaveDelegate>(StringComparer.OrdinalIgnoreCase)
         {
-            ParseXML(fileName);
-        }
-        else if (fileType == "JSON")
-        {
-            ParseJSON(fileName);
-        }
-        else if (fileType == "CSV")
-        {
-            ParseCSV(fileName);
-        }
+            { "json", SaveJson },
+            { "xml", SaveXml },
+            { "csv", SaveCsv }
+        };
 
-        return cityData;
+        if (!savers.TryGetValue(fileType, out var saver))
+            throw new ArgumentException($"Unsupported file type: {fileType}");
+
+        saver(cityData, fileName);
     }
 
+    public void SaveXml(Dictionary<string, List<CityInfo>> cityData, string fileName)
+    {
+        // Create an XmlDocument to work with XML nodes
+        XmlDocument xmlDoc = new XmlDocument();
+
+        // Create XML declaration
+        XmlDeclaration xmlDeclaration = xmlDoc.CreateXmlDeclaration("1.0", "UTF-8", "yes");
+        xmlDoc.AppendChild(xmlDeclaration);
+
+        // Create root element
+        XmlElement root = xmlDoc.CreateElement("usa_cities");
+        xmlDoc.AppendChild(root);
+
+        // Iterate through the dictionary to create city elements
+        foreach (var cityList in cityData.Values)
+        {
+            foreach (var city in cityList)
+            {
+                XmlElement cityElement = xmlDoc.CreateElement("city");
+
+                // Add each city data element
+                cityElement.AppendChild(CreateElement(xmlDoc, "id", city.ID.ToString()));
+                cityElement.AppendChild(CreateElement(xmlDoc, "name", city.Name));
+                cityElement.AppendChild(CreateElement(xmlDoc, "state_abbrev", city.StateAbbrev));
+                cityElement.AppendChild(CreateElement(xmlDoc, "state", city.State));
+                cityElement.AppendChild(CreateElement(xmlDoc, "capital", city.Capital));
+                cityElement.AppendChild(CreateElement(xmlDoc, "lat", city.Lattitude.ToString()));
+                cityElement.AppendChild(CreateElement(xmlDoc, "lng", city.Longitude.ToString()));
+                cityElement.AppendChild(CreateElement(xmlDoc, "population", city.Population.ToString()));
+                cityElement.AppendChild(CreateElement(xmlDoc, "density", city.Density.ToString()));
+                cityElement.AppendChild(CreateElement(xmlDoc, "timezone", city.TimeZone));
+                cityElement.AppendChild(CreateElement(xmlDoc, "zips", city.Zips));
+
+                root.AppendChild(cityElement);
+            }
+        }
+
+        // Create a writer with formatting enabled to preserve indentation
+        XmlWriterSettings settings = new XmlWriterSettings
+        {
+            Indent = true,  // Enables indentation
+            IndentChars = "\t",  // Uses a tab character for indentation
+            NewLineOnAttributes = false, // Prevents attributes from breaking into new lines
+        };
+
+        using (XmlWriter writer = XmlWriter.Create(fileName, settings))
+        {
+            xmlDoc.Save(writer);// Save the XML document to file
+        }
+    }
+
+    // Helper method to create XML elements
+    private XmlElement CreateElement(XmlDocument xmlDoc, string name, string value)
+    {
+        XmlElement element = xmlDoc.CreateElement(name);
+        element.InnerText = value;
+        return element;
+    }
+
+    // Method to update json file with new cityData
+    public void SaveJson(Dictionary<string, List<CityInfo>> cityData, string fileName)
+    {
+        // Flatten the dictionary into a single list of CityInfo objects
+        var cityList = cityData.SelectMany(kvp => kvp.Value).ToList();
+        string json = Newtonsoft.Json.JsonConvert.SerializeObject(cityList, Newtonsoft.Json.Formatting.Indented);
+
+        File.WriteAllText(fileName, json);
+    }
+
+    // Method to update csv file with new cityData
+    public void SaveCsv(Dictionary<string, List<CityInfo>> cityData, string fileName)
+    {
+        using (StreamWriter writer = new StreamWriter(fileName))
+        {
+            writer.WriteLine("id,city,state_abbrev,state,capital,lat,lng,population,density,timezone,zips");
+
+            foreach (var cityList in cityData.Values)
+            {
+                foreach (var city in cityList)
+                {
+                    writer.WriteLine($"{city.ID},{city.Name},{city.StateAbbrev},{city.State},{city.Capital}," +
+                                     $"{city.Lattitude},{city.Longitude},{city.Population},{city.Density},{city.TimeZone},{city.Zips}");
+                }
+            }
+        }
+    }
 }

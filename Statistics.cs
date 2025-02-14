@@ -3,34 +3,42 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
-using static PopulationChangeEvent;
 
 public class Statistics
 {
     // Dictionary to hold city information
     public Dictionary<string, List<CityInfo>> CityData { get; private set; }
     private PopulationChangeEvent _populationChangeEvent;
+    private string _fileName;
+    private string _fileType;
 
     // Constructor to initialize the city data by calling the DataModeler
     public Statistics(string fileName, string fileType)
     {
+        _fileName = fileName;
+        _fileType = fileType;
         DataModeler modeler = new DataModeler();
-        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);//new change
         CityData = modeler.ParseFile(fileName, fileType); // Parse the data and store in the dictionary
-        _populationChangeEvent = new PopulationChangeEvent(CityData);
-        _populationChangeEvent.OnPopulationChanged += PopulationChangeHandler;
+
+        _populationChangeEvent = new PopulationChangeEvent();
+        _populationChangeEvent.PopulationChanged += OnPopulationChanged;
     }
 
     // Method reports all the city info in the dictionary for the selected city name
     public void ReportCityInformation(string cityName)
     {
+        int count = 0;
         if (CityData.ContainsKey(cityName))
         {
-            Console.WriteLine($"Information for {cityName}:\n");
-            foreach (var cityInfo in CityData[cityName])
+            foreach (var city in CityData[cityName])
+                count++;
+            Console.WriteLine($"\nNumber of matches: {count}");
+            count = 0;
+            foreach (var city in CityData[cityName])
             {
                 // Output the information for each city (multiple entries per name)
-                Console.WriteLine(cityInfo.ToString());
+                Console.WriteLine();
+                Console.WriteLine(++count + ". " + city.ToString());
             }
         }
         else
@@ -52,17 +60,17 @@ public class Statistics
             if (city1 != null && city2 != null)
             {
                 // Compare population density and output which city has a higher density
-                Console.WriteLine($"Population Density Comparison between {cityName1} and {cityName2}:\n");
-                Console.WriteLine($"{cityName1}: {city1.Density} density");
-                Console.WriteLine($"{cityName2}: {city2.Density} density\n");
+
+                Console.WriteLine($"{cityName1}, {city1.StateAbbrev} has a population density of {city1.Density.ToString("N0")} people per sq. km.");
+                Console.WriteLine($"{cityName2}, {city2.StateAbbrev} has a population density of {city2.Density.ToString("N0")} people per sq. km.\n");
 
                 if (city1.Density > city2.Density)
                 {
-                    Console.WriteLine($"{cityName1} has a higher population density.");
+                    Console.WriteLine($"{cityName1}, {city1.StateAbbrev} has the higher population density.");
                 }
                 else if (city2.Density > city1.Density)
                 {
-                    Console.WriteLine($"{cityName2} has a higher population density.");
+                    Console.WriteLine($"{cityName2}, {city2.StateAbbrev} has the higher population density.");
                 }
                 else
                 {
@@ -80,31 +88,55 @@ public class Statistics
         }
     }
 
-    // Method reports the distance between any two cities in km using latitude and longitude stored in the cities dictionary
-    public double ReportDistanceBetweenCities(double lat1, double lon1, double lat2, double lon2)
+    // Method reports the distance between any two cities in km using lattitude and longitude stored in the cities dictionary
+    public void ReportDistanceBetweenCities(string cityName1, string cityName2) 
     {
-        // Radius of Earth in kilometers
-        double R = 6371;
+        // Ensure both cities exist in the dictionary
+        if (CityData.ContainsKey(cityName1) && CityData.ContainsKey(cityName2))
+        {
+            var city1 = CityData[cityName1].FirstOrDefault();
+            var city2 = CityData[cityName2].FirstOrDefault();
 
-        // Convert degrees to radians
-        double lat1Rad = ToRadians(lat1);
-        double lon1Rad = ToRadians(lon1);
-        double lat2Rad = ToRadians(lat2);
-        double lon2Rad = ToRadians(lon2);
+            // Ensure both cities are not null
+            if (city1 == null || city2 == null)
+            {
+                Console.WriteLine("One or both cities were found but do not contain valid data.");
+                return;
+            }
 
-        // Differences in coordinates
-        double latDifference = lat2Rad - lat1Rad;
-        double lonDifference = lon2Rad - lon1Rad;
+            double lat1 = city1.Lattitude;
+            double lon1 = city1.Longitude;
+            double lat2 = city2.Lattitude;
+            double lon2 = city2.Longitude;
 
-        // Haversine formula
-        double a = Math.Pow(Math.Sin(latDifference / 2), 2) +
-                   Math.Cos(lat1Rad) * Math.Cos(lat2Rad) *
-                   Math.Pow(Math.Sin(lonDifference / 2), 2);
-        double b = 2 * Math.Asin(Math.Sqrt(a));
+            // Radius of Earth in kilometers
+            double R = 6371;
 
-        // Calculate the distance
-        double distance = R * b;
-        return distance;
+            // Convert degrees to radians
+            double lat1Rad = ToRadians(lat1);
+            double lon1Rad = ToRadians(lon1);
+            double lat2Rad = ToRadians(lat2);
+            double lon2Rad = ToRadians(lon2);
+
+            // Differences in coordinates
+            double latDifference = lat2Rad - lat1Rad;
+            double lonDifference = lon2Rad - lon1Rad;
+
+            // Haversine formula
+            double a = Math.Pow(Math.Sin(latDifference / 2), 2) +
+                       Math.Cos(lat1Rad) * Math.Cos(lat2Rad) *
+                       Math.Pow(Math.Sin(lonDifference / 2), 2);
+            double b = 2 * Math.Asin(Math.Sqrt(a));
+
+            // Calculate the distance
+            double distance = R * b;
+
+            Console.WriteLine($"The distance between {cityName1}, {city1.StateAbbrev} and {cityName2}, {city2.StateAbbrev} is {distance.ToString("N0")} km.");
+        }
+        else
+        {
+            Console.WriteLine("One or both of the cities do not exist in the data.");
+        }
     }
 
     // Method to convert degrees to radians
@@ -129,15 +161,8 @@ public class Statistics
 
                     if (capitalCity.HasValue)
                     {
-                        // Extract capital details
-                        string capitalName = capitalCity.Value.CapitalName;
-                        double capitalLat = capitalCity.Value.Latitude;
-                        double capitalLon = capitalCity.Value.Longitude;
-
-                        // Calculate the distance
-                        double distance = ReportDistanceBetweenCities(city.Latitude, city.Longitude, capitalLat, capitalLon);
-
-                        Console.WriteLine($"The distance between {cityName} and {capitalName} (capital of {city.State}) is: {distance} km.");
+                        // Report the distance
+                        ReportDistanceBetweenCities(cityName, capitalCity.Value.CapitalName);
                     }
                     else
                     {
@@ -160,67 +185,51 @@ public class Statistics
         }
     }
 
-
-
-    // Method to report the capital city and the longitude and latitude of a given state, returns a tuple
-    public (string CapitalName, double Latitude, double Longitude)? ReportCapital(string stateabbrev)
-    {
-        var capital = CityData.Values
-            .SelectMany(cityList => cityList)
-            .FirstOrDefault(city => city.StateAbbrev == stateabbrev && !string.IsNullOrEmpty(city.Capital));
-
-        if (capital != null)
-        {
-            return (capital.Name, capital.Latitude, capital.Longitude);
-        }
-        return null;
-    }
-
-
     // Method to display map of the specified city
     public void ShowCityOnMap(string cityName, string stateAbbrev)
     {
         if (CityData.ContainsKey(cityName))
         {
-            
             var city = CityData[cityName].FirstOrDefault(c => c.StateAbbrev == stateAbbrev);
             if (city != null)
             {
-               
-                string url = $"https://www.google.com/maps/search/?api=1&query={city.Latitude},{city.Longitude}";
+                string url = $"https://www.google.com/maps/search/?api=1&query={city.Lattitude},{city.Longitude}";
                 Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
             }
             else
             {
-                Console.WriteLine("City not found in the specified state.");
+                Console.Write("\nCity not found in the specified state.");
             }
         }
         else
         {
-            Console.WriteLine("City not found.");
+            Console.Write("\nCity not found.");
         }
     }
 
-    // Method to reports all cities in the specified state
+    // Method reports all cities in the specified state
     public void ReportAllCities(string stateAbbrev)
     {
         // Retrieves all cities matching the state abbreviation
         var cities = CityData.Values.SelectMany(c => c).Where(c => c.StateAbbrev == stateAbbrev).ToList();
         if (cities.Any())
         {
-            Console.WriteLine($"Cities in {stateAbbrev}:");
+            Console.WriteLine($"The following cities are in {cities[0].State}...\n");
+            int count = 0;
             foreach (var city in cities)
             {
+                count++;
                 Console.WriteLine(city.Name);
             }
+            Console.WriteLine($"\n{count} cities found.\n");
         }
         else
         {
-            Console.WriteLine("No cities found for the given state abbreviation.");
+            Console.WriteLine("No cities found for the given state abbreviation.\n");
         }
     }
 
-    //Method to reports the largest city in the specified state based on population
+    //Method reports the largest city in the specified state based on population
     public void ReportLargestCity(string stateAbbrev)
     {
         var largestCity = CityData.Values.SelectMany(c => c)
@@ -230,7 +239,7 @@ public class Statistics
 
         if (largestCity != null)
         {
-            Console.WriteLine($"Largest city in {stateAbbrev}: {largestCity.Name} with population {largestCity.Population}");
+            Console.WriteLine($"The largest city in {largestCity.State} is {largestCity.Name} with a population of {largestCity.Population.ToString("N0")}.\n");
         }
         else
         {
@@ -238,7 +247,7 @@ public class Statistics
         }
     }
 
-    // Method to reports the smallest city in the specified state based on population
+    // Method reports the smallest city in the specified state based on population
     public void ReportSmallestCity(string stateAbbrev)
     {
         var smallestCity = CityData.Values.SelectMany(c => c)
@@ -248,7 +257,7 @@ public class Statistics
 
         if (smallestCity != null)
         {
-            Console.WriteLine($"Smallest city in {stateAbbrev}: {smallestCity.Name} with population {smallestCity.Population}");
+            Console.WriteLine($"The smallest city in {smallestCity.State} is {smallestCity.Name} with a population of {smallestCity.Population.ToString("N0")}.\n");
         }
         else
         {
@@ -256,27 +265,69 @@ public class Statistics
         }
     }
 
-    // Method to reports the total population of a specified state by summing all city populations
+    // Method to report the capital city and the longitude and lattitude of a given state, returns a tuple
+    public (string CapitalName, double Lattitude, double Longitude)? ReportCapital(string stateabbrev)
+    {
+        var capital = CityData.Values
+            .SelectMany(cityList => cityList)
+            .FirstOrDefault(city => city.StateAbbrev == stateabbrev && !string.IsNullOrEmpty(city.Capital));
+
+        if (capital != null)
+        {
+            return (capital.Name, capital.Lattitude, capital.Longitude);
+        }
+        return null;
+    }
+
+    // Method reports the total population of a specified state by summing all city populations
     public void ReportStatePopulation(string stateAbbrev)
     {
-        int totalPopulation = CityData.Values.SelectMany(c => c)
+        var cities = CityData.Values.SelectMany(c => c)
             .Where(c => c.StateAbbrev == stateAbbrev)
-            .Sum(c => c.Population); // Computes the sum of populations
+            .ToList(); // Computes the sum of populations
 
-        Console.WriteLine($"Total population of {stateAbbrev}: {totalPopulation}");
+        int totalPopulation = cities.Sum(c => c.Population);
+
+        if (cities.Count > 0)
+        {
+            Console.WriteLine($"Total population of the {cities.Count} cities in {cities[0].State} is {totalPopulation.ToString("N0")}.\n");
+        }
+        else
+        {
+            Console.WriteLine($"No cities found for the state abbreviation: {stateAbbrev}.\n");
+        }
     }
 
-    // Method to reports the average population density of a specified state
-    private void PopulationChangeHandler(object sender, PopulationChangedEventArgs e)
+    // Method sends a notification message to user when Population has been updated
+    private void OnPopulationChanged(object? sender, PopulationChangedEventArgs e)
     {
-        Console.WriteLine($"[EVENT] Population updated for {e.CityName}, {e.StateAbbrev}:");
-        Console.WriteLine($"Old Population: {e.OldPopulation} → New Population: {e.NewPopulation}");
-        Console.WriteLine($"Old Density: {e.OldDensity} → Adjusted Density: {e.AdjustedDensity}");
+        Console.WriteLine($"Changing the population figure for {e.CityName}, {e.StateAbbrev}...");
+        Console.WriteLine($"Current Population: {e.OldPopulation.ToString("N0")}");
+        Console.WriteLine($"Revised Population: {e.NewPopulation.ToString("N0")}");
     }
-    public void ChangeCityPopulation(string cityName, string stateAbbrev, int newPopulation)
+
+    // Method to update the city population and save the changes to the file
+    public void UpdateCityPopulation(string cityName, int newPopulation)
     {
-        _populationChangeEvent.UpdatePopulation(cityName, stateAbbrev, newPopulation);
+        if (CityData.ContainsKey(cityName))
+        {
+            foreach (var city in CityData[cityName])
+            {
+                double oldPopulation = city.Population;
+                _populationChangeEvent.PopulationChanged -= OnPopulationChanged; // Unsubscribe first
+                _populationChangeEvent.PopulationChanged += OnPopulationChanged;  // Subscribe event
+                _populationChangeEvent.UpdatePopulation(city, newPopulation);  // Use PopulationChangeEvent to update population
+
+                DataModeler modeler = new DataModeler();
+                modeler.SaveFile(CityData, _fileName, _fileType);// Save updates to file
+
+                Console.WriteLine($"\nPopulation of {city.Name}, {city.StateAbbrev} in {_fileType} file " +
+                    $"successfully changed from {oldPopulation.ToString("N0")} to {city.Population.ToString("N0")}.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("City not found.");
+        }
     }
-
-
 }

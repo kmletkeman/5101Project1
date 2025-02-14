@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|c:\\school\\projects\\info-5101\\project1\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|solutionrelative:statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|c:\\school\\projects\\info-5101\\project1\\datamodeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|solutionrelative:datamodeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|c:\\school\\projects\\info-5101\\project1\\cityinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|solutionrelative:cityinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|c:\\school\\projects\\info-5101\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F5BB57-B979-4933-8314-19E385645E59}|Project1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Statistics.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\Statistics.cs",
-              "RelativeDocumentMoniker": "Statistics.cs",
-              "ToolTip": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\Statistics.cs",
-              "RelativeToolTip": "Statistics.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T18:04:27.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataModeler.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\DataModeler.cs",
-              "RelativeDocumentMoniker": "DataModeler.cs",
-              "ToolTip": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\DataModeler.cs",
-              "RelativeToolTip": "DataModeler.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwCIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:17:59.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CityInfo.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\CityInfo.cs",
-              "RelativeDocumentMoniker": "CityInfo.cs",
-              "ToolTip": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\CityInfo.cs",
-              "RelativeToolTip": "CityInfo.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvxMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:12:06.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\SCHOOL\\Projects\\INFO-5101\\Project1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCsAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:11:20.099Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
