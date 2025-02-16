@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,10 +16,11 @@ class Program
 
     static void Main(string[] args)
     {
-        SelectDataSource();
-        MainOptionsMenu();
+        SelectDataSource(); // Choose the data source for the application
+        MainOptionsMenu(); // Display the main options menu for user interaction
     }
 
+    //Prints the header with task description and data format
     static void PrintHeader(string task = "")
     {
         int totalWidth = 80; // Total width of header
@@ -33,6 +35,7 @@ class Program
         Console.WriteLine(new string('-', totalWidth));
     }
 
+    //Purpose: Allows the user to select the data source for the cities' information
     static void SelectDataSource()
     {
         Console.Clear();
@@ -44,6 +47,7 @@ class Program
         Console.Write("\nEnter your selection: ");
         string? sourceSelection = Console.ReadLine();
 
+        // Switch between options and set the appropriate data source and format
         switch (sourceSelection)
         {
             case "1":
@@ -67,10 +71,11 @@ class Program
 
                 break;
         }
-
+        // Initialize the statistics object with selected data
         statistics = new Statistics(dataSource, dataFormat);
     }
 
+    //Purpose: Displays the main options menu for interacting with the program
     static void MainOptionsMenu()
     {
         while (true)
@@ -88,16 +93,16 @@ class Program
             switch (mainOption)
             {
                 case "1":
-                    QueryByCity();
+                    QueryByCity();// Proceed to city query section
                     break;
                 case "2":
-                    QueryByState();
+                    QueryByState();// Proceed to state query section
                     break;
                 case "3":
-                    SelectDataSource();
+                    SelectDataSource();// Change data source if needed
                     break;
                 case "4":
-                    return;
+                    return; // Exit the program
                 default:
                     Console.WriteLine("\nInvalid option. Please try again.");
                     Console.Write("Press any key to continue...");
@@ -106,7 +111,7 @@ class Program
             }
         }
     }
-
+   // Purpose: Provides city-specific queries and displays options for the user
     static void QueryByCity()
     {
         if (statistics == null)
@@ -123,6 +128,7 @@ class Program
 
             Console.Clear();
             PrintHeader();
+            // Provide the user with a list of city-related queries
             Console.WriteLine("\nCity Options...\n");
             Console.WriteLine("1. City Information");
             Console.WriteLine("2. Compare Population Density");
@@ -134,6 +140,7 @@ class Program
             Console.Write("\nEnter your selection: ");
             string? cityOption = Console.ReadLine();
 
+            // Switch between different city query options
             switch (cityOption)
             {
                 case "1":
@@ -142,41 +149,41 @@ class Program
                         Console.Clear();
                         PrintHeader("CITY INFORMATION");
                         Console.Write("\nEnter city name: ");
-                        city = Console.ReadLine();
+                        city = Console.ReadLine();// Reads the city name
 
-                        if (string.IsNullOrEmpty(city))
+                        if (string.IsNullOrEmpty(city)) // Checks if the city name is empty
                         {
                             Console.WriteLine("\nCity name cannot be empty. Please enter a valid city name: ");
                             Console.Write("Press any key to continue...");
-                            Console.ReadKey();
+                            Console.ReadKey();// Prompts the user to try again
                         }
                         else
                         {
-                            if (statistics.CityData.ContainsKey(city))
+                            if (statistics.CityData.ContainsKey(city))// Checks if the city exists in the data
                             {
-                                statistics.ReportCityInformation(city);
-                                break;
+                                statistics.ReportCityInformation(city);// Reports the city information if found
+                                break;// Breaks the loop if city info is successfully displayed
                             }
                             else
                             {
                                 Console.Write($"\n'{city}' not found. Enter another city name: ");
                                 Console.Write("\nPress any key to continue...");
-                                Console.ReadKey();
+                                Console.ReadKey();// Prompts the user to try again with a different city
                             }
                         }
                     }
                     break;
-                case "2":
-                    while (true)
+                case "2": // Case for comparing population density between two cities
+                    while (true)// Loops until valid city names are entered
                     {
                         Console.Clear();
-                        PrintHeader("COMPARE POPULATION DENSITY");
+                        PrintHeader("COMPARE POPULATION DENSITY");// Prints the header for population density comparison
                         Console.Write("\nEnter first city name: ");
                         city = Console.ReadLine();
                         Console.Write("Enter second city name: ");
                         city2 = Console.ReadLine();
 
-                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(city2))
+                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(city2))  // Checks if either city name is empty
                         {
                             Console.WriteLine("\nCity names cannot be empty. Please enter valid city names.");
                             Console.Write("Press any key to continue...");
@@ -184,33 +191,33 @@ class Program
                         }
                         else
                         {
-                            if (statistics.CityData.ContainsKey(city) && statistics.CityData.ContainsKey(city2))
+                            if (statistics.CityData.ContainsKey(city) && statistics.CityData.ContainsKey(city2))// Checks if both cities exist in the data
                             {
                                 Console.WriteLine();
-                                statistics.ComparePopulationDensity(city, city2);
-                                break;
+                                statistics.ComparePopulationDensity(city, city2);// Compares the population density between the two cities
+                                break;// Breaks the loop once comparison is done
                             }
                             else
                             {
                                 Console.WriteLine($"\n'{city}' or '{city2}' not found.");
                                 Console.Write("Press any key to continue...");
-                                Console.ReadKey();
+                                Console.ReadKey();// Prompts the user to try again if cities are not found
                             }
                                 
                         }
                     }
                     break;
-                case "3":
+                case "3":// Case for calculating the distance between two cities.
                     while (true)
                     {
                         Console.Clear();
-                        PrintHeader("DISTANCE BETWEEN CITIES");
+                        PrintHeader("DISTANCE BETWEEN CITIES");// Prints the header for distance query.
                         Console.Write("\nEnter first city name: ");
                         city = Console.ReadLine();
                         Console.Write("Enter second city name: ");
                         city2 = Console.ReadLine();
 
-                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(city2))
+                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(city2))// Checks if either city name is empty
                         {
                             Console.WriteLine("\nCity names cannot be empty. Please enter valid city names.");
                             Console.Write("Press any key to continue...");
@@ -218,37 +225,38 @@ class Program
                         }
                         else
                         {
-                            if (statistics.CityData.ContainsKey(city) && statistics.CityData.ContainsKey(city2))
+                            if (statistics.CityData.ContainsKey(city) && statistics.CityData.ContainsKey(city2))// Reports the distance between the two cities
                             {
                                 Console.WriteLine();
                                 statistics.ReportDistanceBetweenCities(city, city2);
-                                break;
+                                break;// Breaks the loop once the distance is reported
                             }
                             else
                             {
                                 Console.WriteLine($"\n'{city}' or '{city2}' not found.");
                                 Console.Write("Press any key to continue...");
-                                Console.ReadKey();
+                                Console.ReadKey();// Prompts the user to try again if cities are not found.
                             }
                         }
                     }
                     break;
-                case "4":
+                case "4":// Case for calculating the distance from the capital city
                     while (true)
                     {
-                        Console.Clear();
-                        PrintHeader("DISTANCE FROM CAPITAL");
+                        Console.Clear(); // Clears the console for capital distance input
+                        PrintHeader("DISTANCE FROM CAPITAL");// Prints the header for capital distance query
                         Console.Write("\nEnter city name: ");
-                        city = Console.ReadLine();
+                        city = Console.ReadLine(); // Reads the city name.
+
                         if (string.IsNullOrEmpty(city))
                         {
                             Console.WriteLine("\nCity name cannot be empty. Please enter a valid city name.");
                             Console.Write("Press any key to continue...");
-                            Console.ReadKey();
+                            Console.ReadKey(); // Prompts the user to try again
                         }
                         else
                         {
-                            if (statistics.CityData.ContainsKey(city))
+                            if (statistics.CityData.ContainsKey(city))// Checks if the city exists in the data
                             {
                                 Console.WriteLine();
                                 statistics.ReportDistanceFromCapital(city);
@@ -258,23 +266,23 @@ class Program
                             {
                                 Console.Write($"\n'{city}' not found. Enter another city name: ");
                                 Console.Write("Press any key to continue...");
-                                Console.ReadKey();
+                                Console.ReadKey();// Prompts the user to try again if city is not found
                             }
                         }
                     }
                     break;
-                case "5":
-                    while (true)
+                case "5":// Case for displaying the city on a map.
+                    while (true)// Loops until valid city name and state abbreviation are entered
                     {
                         Console.Clear();
-                        PrintHeader("SHOW CITY ON MAP");
+                        PrintHeader("SHOW CITY ON MAP"); // Prints the header for map display
 
                         Console.Write("\nEnter city name: ");
                         city = Console.ReadLine();
                         Console.Write("Enter state abbreviation: ");
-                        stateAbbr = Console.ReadLine();
+                        stateAbbr = Console.ReadLine();// Reads the state abbreviation.
 
-                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(stateAbbr))
+                        if (string.IsNullOrEmpty(city) || string.IsNullOrEmpty(stateAbbr))// Checks if either field is empty.
                         {
                             Console.WriteLine("\nCity names and stateAbbr cannot be empty. Please enter valid city names and stateAbbr.");
                             Console.Write("Press any key to continue...");
@@ -282,19 +290,20 @@ class Program
                         }
                         else
                         {
-                            statistics.ShowCityOnMap(city, stateAbbr);
-                            break;
+                            statistics.ShowCityOnMap(city, stateAbbr);// Displays the city on the map
+                            break;// Breaks the loop once the city is displayed.
                         }
                     }
                     break;
-                case "6":
-                    while (true)
+                case "6":// Case for adjusting the city's population.
+                    while (true)// Loops until valid city name and population are entered
                     {
                         Console.Clear();
-                        PrintHeader("ADJUST CITY POPULATION");
+                        PrintHeader("ADJUST CITY POPULATION");// Prints the header for population adjustment
                         Console.Write("\nEnter city name: ");
                         city = Console.ReadLine();
-                        if (string.IsNullOrEmpty(city))
+
+                        if (string.IsNullOrEmpty(city))// Checks if the city name is empty
                         {
                             Console.WriteLine("\nCity name cannot be empty. Please enter a valid city name.");
                             Console.Write("Press any key to continue...");
@@ -302,36 +311,36 @@ class Program
                         }
                         else
                         {
-                            if (statistics.CityData.ContainsKey(city))
+                            if (statistics.CityData.ContainsKey(city))// Checks if the city exists in the data.
                             {
                                 Console.Write("Enter new population: ");
                                 if (int.TryParse(Console.ReadLine(), out population) && population > 0)// Ensures valid population
                                 {
                                     Console.WriteLine();
-                                    statistics.UpdateCityPopulation(city, population);
-                                    break;
+                                    statistics.UpdateCityPopulation(city, population);// Updates the population of the city.
+                                    break;// Breaks the loop once the population is updated
                                 }
                                 else
                                 {
                                     Console.WriteLine("\nInvalid population input.");
                                     Console.Write("Press any key to continue...");
-                                    Console.ReadKey();
+                                    Console.ReadKey(); // Prompts the user to try again if the population input is invalid.
                                 }
                             }
                             else
                             {
                                 Console.Write($"\n'{city}' not found. Enter another city name: ");
                                 Console.Write("Press any key to continue...");
-                                Console.ReadKey();
+                                Console.ReadKey();// Prompts the user to try again if city is not found.
                             }
                         }
                     }
                     break;
-                case "7":
-                    return;
+                case "7":// Case for returning to the main options.
+                    return;// Exits the current method, returning to the main menu.
                 default:
                     Console.Write("\nInvalid option. Please try again.");
-                    break;
+                    break; // Handles invalid options.
             }
             Console.Write("\nPress any key to continue...");
             Console.ReadKey();
@@ -339,7 +348,7 @@ class Program
     }
 
     static void QueryByState()
-    {
+    {  // Ensure the statistics object is initialized before proceeding.
         if (statistics == null)
         {
             throw new InvalidOperationException("Statistics object is not initialized.");
@@ -351,6 +360,7 @@ class Program
 
             Console.Clear();
             PrintHeader();
+            // Display the available state-related options to the user.
             Console.WriteLine("\nState Options...\n");
             Console.WriteLine("1. All Cities");
             Console.WriteLine("2. Largest City");
@@ -361,6 +371,7 @@ class Program
             Console.Write("\nEnter your selection: ");
             string? stateOption = Console.ReadLine();
 
+            // If the user did not provide a valid input, prompt them again.
             if (string.IsNullOrEmpty(stateOption))
             {
                 Console.WriteLine("\nState option cannot be empty. Please enter a valid option.");
@@ -371,14 +382,14 @@ class Program
             {
                 switch (stateOption)
                 {
-                    case "1":
-                        while(true)
+                    case "1": // Option 1: Query for all cities in a state.
+                        while (true)
                         {
                             Console.Clear();
                             PrintHeader("ALL CITIES");
                             Console.Write("\nEnter 2-letter state abbreviation: ");
                             stateAbbr = Console.ReadLine();
-
+                            // Check for valid state abbreviation input.
                             if (string.IsNullOrEmpty(stateAbbr))
                             {
                                 Console.WriteLine("\nState abbreviation cannot be empty. Please enter a valid state abbreviation.");
@@ -387,20 +398,21 @@ class Program
                             }
                             else
                             {
+                                // Report all cities in the given state.
                                 Console.WriteLine();
                                 statistics.ReportAllCities(stateAbbr);
-                                break;
+                                break; // Break the loop once the query is completed.
                             }
                         }
                         break;
-                    case "2":
+                    case "2":// Option 2: Query for the largest city in a state.
                         while (true)
                         {
                             Console.Clear();
                             PrintHeader("LARGEST CITY");
                             Console.Write("\nEnter 2-letter state abbreviation: ");
                             stateAbbr = Console.ReadLine();
-
+                            // Check for valid state abbreviation input.
                             if (string.IsNullOrEmpty(stateAbbr))
                             {
                                 Console.WriteLine("\nState abbreviation cannot be empty. Please enter a valid state abbreviation.");
@@ -409,13 +421,14 @@ class Program
                             }
                             else
                             {
+                                // Report the largest city in the given state.
                                 Console.WriteLine();
                                 statistics.ReportLargestCity(stateAbbr);
-                                break;
+                                break;// Break the loop once the query is completed.
                             }
                         }
                         break;
-                    case "3":
+                    case "3":// Option 3: Query for the smallest city in a state.
                         while (true)
                         {
                             Console.Clear();
@@ -423,6 +436,7 @@ class Program
                             Console.Write("\nEnter 2-letter state abbreviation: ");
                             stateAbbr = Console.ReadLine();
 
+                            // Check for valid state abbreviation input.
                             if (string.IsNullOrEmpty(stateAbbr))
                             {
                                 Console.WriteLine("\nState abbreviation cannot be empty. Please enter a valid state abbreviation.");
@@ -431,13 +445,14 @@ class Program
                             }
                             else
                             {
+                                // Report the smallest city in the given state.
                                 Console.WriteLine();
                                 statistics.ReportSmallestCity(stateAbbr);
-                                break;
+                                break;// Break the loop once the query is completed.
                             }
                         }
                         break;
-                    case "4":
+                    case "4":// Option 4: Query for the capital city of a state.
                         while (true)
                         {
                             Console.Clear();
@@ -445,6 +460,7 @@ class Program
                             Console.Write("\nEnter 2-letter state abbreviation: ");
                             stateAbbr = Console.ReadLine();
 
+                            // Check for valid state abbreviation input.
                             if (string.IsNullOrEmpty(stateAbbr))
                             {
                                 Console.WriteLine("\nState abbreviation cannot be empty. Please enter a valid state abbreviation.");
@@ -453,6 +469,7 @@ class Program
                             }
                             else
                             {
+                                // Get and display the capital city details.
                                 var capital = statistics.ReportCapital(stateAbbr);
                                 if (capital.HasValue)
                                 {
@@ -463,11 +480,11 @@ class Program
                                 {
                                     Console.WriteLine("\nCapital not found.");
                                 }
-                                break;
+                                break;// Break the loop once the query is completed.
                             }
                         }
                         break;
-                    case "5":
+                    case "5":// Option 5: Query for the population of a state.
                         while (true)
                         {
                             Console.Clear();
@@ -483,22 +500,24 @@ class Program
                             }
                             else
                             {
+                                // Report the population of the given state.
                                 Console.WriteLine();
                                 statistics.ReportStatePopulation(stateAbbr);
-                                break;
+                                break;// Break the loop once the query is completed.
                             }
                         }
                         break;
-                    case "6":
+                    case "6":  // Option 6: Exit back to the main menu.
                         Console.Clear();
-                        return;
+                        return;// Exit the method and return to the main menu.
                     default:
+                        // Handle invalid option input.
                         Console.Clear();
                         PrintHeader();
                         Console.WriteLine("\nInvalid option. Please try again.");
                         break;
                 }
-                Console.Write("Press any key to continue...");
+                Console.Write("Press any key to continue..."); // Prompt user to continue after each action.
                 Console.ReadKey();
             }
         }
